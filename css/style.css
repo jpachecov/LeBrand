@@ -1,0 +1,14 @@
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+   position: relative;
+}
+
+.nopadding img{
+	width: 100%;
+   
+}
+
+.footer{
+	background-color: #545453
+}
