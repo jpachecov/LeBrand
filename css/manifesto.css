@@ -1,0 +1,107 @@
+body{
+	padding: 2%;
+}
+h6{
+	margin-bottom: 5%;
+}
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+li:before {
+    content: "• ";
+    color: #7B7D80;
+}
+.padding-estandar{
+	padding: 3%;
+	box-sizing: border-box;
+}
+.title-gray{
+	color: #7B7D80;
+}
+
+/*Números*/
+.big-number span{
+	display: inline-block;
+	vertical-align: top;
+}
+.big-number span:first-of-type{
+	padding-top: 70px;
+	position: absolute;
+	border-bottom: 5px solid #333;
+	font-size: 20px;
+}
+.big-number span:last-of-type{
+	font-size: 170px;
+}
+.big-number.small-text span:first-of-type{
+	width: 125px;
+}
+.big-number.small-text span:last-of-type{
+	margin-left: 80px;
+}
+.big-number.large-text span:first-of-type{
+	width: 145px;
+}
+.big-number.large-text span:last-of-type{
+	margin-left: 105px;
+}
+.number1{
+	width: 270px;
+	float: right;
+}
+.number2{
+	width: 295px;
+	float: right;
+}
+.number3{
+	width: 300px;
+	float: right;
+}
+
+.p-description{
+	width: 40%;
+}
+
+/*Fondos*/
+.gray{
+	background-color: #606267;
+	color: white;
+}
+.dark-gray{
+	background: #2B2E34;
+	color: white;
+	text-align: center;
+}
+.border-black{
+	border-bottom: 5px solid black !important;
+}
+
+/*Último bloque*/
+.dark-gray p{
+	width: 30%;
+	margin: 3% auto;
+}
+.dark-gray span{
+	padding: 10px;
+}
+
+/*Estilos generales*/
+.center{
+	text-align: center;
+}
+.upper{
+	text-transform: uppercase;
+}
+.bold{
+	font-weight: bold;
+}
