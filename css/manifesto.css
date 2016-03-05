@@ -1,5 +1,5 @@
 body{
-	padding: 2%;
+	/*padding: 2%;*/
 }
 h6{
 	margin-bottom: 5%;
@@ -17,7 +17,7 @@ a:hover{
 	text-decoration: none;
 	cursor: pointer;
 }
-li:before {
+.circle-li:before {
     content: "• ";
     color: #7B7D80;
 }

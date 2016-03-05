@@ -9,7 +9,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <link href="css/menuAnimado.css" rel="stylesheet">
+	
     <link rel="stylesheet" href="css/manifesto.css">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,6 +22,26 @@
     <![endif]-->
 </head>
 <body>
+	 <div id='menu'>
+        <a id='logo' href="#"></a><!--
+      --><ul id="menu-anim" class='menu'>
+        <li >
+          <a  href="index.html">PORTFOLIO</a>
+        </li><!--
+      --><li>
+          <a href="">ABOUT US</a>
+        </li><!--
+      --><li>
+          <a href="">WORK</a>
+        </li><!--
+      --><li>
+          <a href="">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+
+
+
 	<div class="container-fluid padding-estandar">
 		<div class="row padding-estandar">
 			<h1 class="big-number small-text number1">
@@ -86,41 +109,41 @@
 			<div class="col-md-4 padding-estandar">
 				<h2 class="title-gray">Identity.</h2>
 				<ul>
-					<li>Logotype.</li>
-					<li>Brand Consulting.</li>
-					<li>Identity System.</li>
-					<li>Typography.</li>
-					<li>Logomark.</li>
-					<li>Wordmark.</li>
-					<li>Art Direction.</li>
-					<li>Creative Direction.</li>
-					<li>Naming.</li>
-					<li>Slogan.</li>
-					<li>Stationery.</li>
-					<li>Brand Guidelines.</li>
+					<li class="circle-li">Logotype.</li>
+					<li class="circle-li">Brand Consulting.</li>
+					<li class="circle-li">Identity System.</li>
+					<li class="circle-li">Typography.</li>
+					<li class="circle-li">Logomark.</li>
+					<li class="circle-li">Wordmark.</li>
+					<li class="circle-li">Art Direction.</li>
+					<li class="circle-li">Creative Direction.</li>
+					<li class="circle-li">Naming.</li>
+					<li class="circle-li">Slogan.</li>
+					<li class="circle-li">Stationery.</li>
+					<li class="circle-li">Brand Guidelines.</li>
 				</ul>
 			</div>
 			<div class="col-md-4 padding-estandar">
 				<h2 class="title-gray">Branding.</h2>
 				<ul>
-					<li>Editorial Design.</li>
-					<li>Branding System.</li>
-					<li>Peripherals.</li>
-					<li>Advertising.</li>
-					<li>Illustration.</li>
-					<li>Iconography.</li>
-					<li>Flyers & Invitations.</li>
-					<li>Custom Publishing.</li>
-					<li>Copywriting.</li>
+					<li class="circle-li">Editorial Design.</li>
+					<li class="circle-li">Branding System.</li>
+					<li class="circle-li">Peripherals.</li>
+					<li class="circle-li">Advertising.</li>
+					<li class="circle-li">Illustration.</li>
+					<li class="circle-li">Iconography.</li>
+					<li class="circle-li">Flyers & Invitations.</li>
+					<li class="circle-li">Custom Publishing.</li>
+					<li class="circle-li">Copywriting.</li>
 				</ul>
 			</div>
 			<div class="col-md-4 padding-estandar">
 				<h2 class="title-gray">Web.</h2>
 				<ul>
-					<li>User Experience Design <span>(UX)</span>.</li>
-					<li>Front-end / HTML + CSS <span>(pixel perfect)</span>.</li>
-					<li>Content Managment System.</li>
-					<li>Wireframes.</li>
+					<li class="circle-li">User Experience Design <span>(UX)</span>.</li>
+					<li class="circle-li">Front-end / HTML + CSS <span>(pixel perfect)</span>.</li>
+					<li class="circle-li">Content Managment System.</li>
+					<li class="circle-li">Wireframes.</li>
 				</ul>
 			</div>
 		</div>
@@ -158,6 +181,8 @@
 </body>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/menuAnimado.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 </html>

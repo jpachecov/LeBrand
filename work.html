@@ -10,6 +10,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/work.css">
+    <link href="css/menuAnimado.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,6 +20,25 @@
     <![endif]-->
 </head>
 <body>
+
+	<div id='menu'>
+        <a id='logo' href="#"></a><!--
+      --><ul id="menu-anim" class='menu'>
+        <li >
+          <a  href="index.html">PORTFOLIO</a>
+        </li><!--
+      --><li>
+          <a href="">ABOUT US</a>
+        </li><!--
+      --><li>
+          <a href="">WORK</a>
+        </li><!--
+      --><li>
+          <a href="">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+
 	<div class="row img-grid">
 		<div class="col-md-4 grid-md">
 			<img src="img/cuadros/ejem.jpg">
@@ -98,4 +118,11 @@
 		</div>
 	</div>
 </body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/menuAnimado.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </html>
