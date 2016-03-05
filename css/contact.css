@@ -1,0 +1,83 @@
+.clear{
+	padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+}
+.img-contact{
+	width: 100%;
+}
+.little-border-black{
+	border-top: 5px solid black;
+	display: block;
+	width: 50px;
+}
+.little-border-white{
+	border-top: 5px solid white;
+	display: block;
+	width: 50px;
+}
+.data{
+	padding: 3% 3% 0px 3% !important;
+	box-sizing: border-box;
+}
+.data h3{
+	margin-top: 10px;
+}
+.black{
+	font-weight: bold;
+}
+.separete{
+	margin-bottom: 5% !important;
+}
+.title{
+	text-align: right;
+	background: black none repeat scroll 0% 0%;
+	color: white;
+	box-sizing: border-box;
+	margin: 0px;
+	height: 75px;
+	line-height: 75px;
+	padding-right: 10%;
+}
+.black-div{
+	background: black; 
+	color: white;
+	padding: 3% 13% 3% 1% !important;
+}
+.black-div p{
+	margin: 5% 0px;
+}
+
+/*Formulario*/
+.form-contact label, .form-contact input, .form-contact textarea{
+	display: block;
+	width: 100%;
+	resize: none;
+}
+.form-contact input{
+	color:black;
+}
+.form-contact{
+	padding-bottom: 5%;
+}
+.footer-black{
+	background: black;
+	color: white;
+	text-align: center;
+}
+.footer-black a{
+	color:white;
+	text-decoration: none;
+}
+.footer-black a:hover{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer-black .center-div{
+	width: 30%;
+	margin: 1% auto;
+}
+.footer-black span{
+	padding: 10px;
+}
