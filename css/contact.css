@@ -42,7 +42,7 @@
 .black-div{
 	background: black; 
 	color: white;
-	padding: 3% 13% 3% 1% !important;
+	padding: 6% 13% 0% 2% !important;
 }
 .black-div p{
 	margin: 5% 0px;
@@ -58,7 +58,7 @@
 	color:black;
 }
 .form-contact{
-	padding-bottom: 5%;
+	padding-bottom: 0%;
 }
 .footer-black{
 	background: black;
@@ -80,4 +80,16 @@
 }
 .footer-black span{
 	padding: 10px;
+}
+
+.box{
+	border-radius: 0%;
+}
+
+.form-contact > label{
+	margin-top: 5%;
+}
+
+#area_texto{
+	height: 130px;
 }
