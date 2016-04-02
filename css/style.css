@@ -34,9 +34,19 @@
   	color: white;
 }
 
-
+.two-img{
+  float: left;
+  width: 50% !important;
+}
 
 
 .footer{
-	background-color: #545453
+  color: white;
+	background-color: black;
+  text-align: center;
 }
+.footer .icon a{
+  text-decoration: none;
+  color: white;
+}
+
