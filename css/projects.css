@@ -39,6 +39,7 @@
  .pg-3 img{
  	width: 100%;
  }
+
  .bold{
 	font-weight: bold;
  }
@@ -246,4 +247,128 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: -25%;
+  }
+
+
+  /*
+  * Centennial_Organics
+  */
+  .pg-2-centennial_Organics{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/centennial_Organics/background_000-1.png);
+    text-align: center;
+  }
+  .pg-2-centennial_Organics h1{
+    margin-top: 20%;
+  }
+
+  .centennial_Organics-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -40%;
+  }
+
+
+  /*
+  * Agora
+  */
+  .pg-2-agora{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/agora/background_000-1.png);
+    text-align: center;
+  }
+  .pg-2-agora h1{
+    margin-top: 20%;
+  }
+
+  .agora-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -40%;
+  }
+
+/*
+  *Marmoline
+   */
+  .pg-2-marmoline{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/marmoline/background_000-1.png);
+    text-align: center;
+  }
+  .pg-2-marmoline h1{
+    margin-top: 20%;
+  }
+
+  .marmoline-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -50%;
+  }
+
+
+/*
+  *  aimalaion
+   */
+
+  .pg-2-aimalaion h1{
+    margin-top: 20%;
+  }
+
+  .aimalaion-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -120%;
+  }
+
+/*
+  *
+  *CDM
+   */
+  .pg-2-cmx{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/cmx/background_000-1.png);
+    text-align: center;
+  }
+  .pg-2-cmx h1{
+    margin-top: 20%;
+  }
+
+  .cmx-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -50%;
+  }
+
+/*
+  *
+  *Vintage
+   */
+  .pg-2-vintage{
+    margin-top: -15%;
+    color: black;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/vintage/background_000-1.png);
+    text-align: center;
+  }
+  .pg-2-vintage h1{
+    margin-top: 20%;
+  }
+
+  .vintage-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -45%;
   }
