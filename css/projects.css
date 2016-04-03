@@ -1,37 +1,74 @@
 /*
- * Agroamericana
+ * Estilos generales
  */
- .agro-pg-1{
+ .pg-1{
  	height: 35em;	
  }
- .agro-pg-1 img{
+ .pg-1 img{
  	display: block;
 	margin: 10em auto 0px;
  }
- .agro-pg-2{
- 	margin-top: -25%;
- 	color: white;
+ .pg-2{
  	background-repeat: no-repeat;
  	background-size: cover;
-	background-position: 0% 60%;
-	background-image: url(../img/work/agroamericana/background_000-1.png);
  }
- .agro-pg-2 h1{
- 	margin-top: 40%;
- }
- .agro-pg-2 h1, .agro-pg-2  h4{
+ .pg-2 h1, .pg-2  h4{
  	text-align: center;
  }
- .agro-pg-2 p{
+ .pg-2 p{
  	width: 50%;
 	padding: 5%;
  }
- .agro-pg-2 img{
- 	float: right;
- }
- .agro-pg-3{
+ .pg-3{
  	padding: 0px !important;
  }
- .agro-pg-3 img{
+ .pg-3 img{
  	width: 100%;
+ }
+ .bold{
+	font-weight: bold;
+ }
+
+ /*
+  * Agroamericana
+  */
+  .pg-2-agroamericana{
+  	color: white;
+  	margin-top: -25%;
+  	background-position: 0% 60%;
+	background-image: url(../img/work/agroamericana/background_000-1.png);
+  }
+  .pg-2-agroamericana h1{
+ 	margin-top: 40%;
+ }
+  .pg-2-agroamericana img{
+  	float: right;
+  }
+
+  /*
+   * Fighter Town
+   */
+ .pg-2-fighter{
+ 	padding: 0px !important;
+ 	color: black;
+ 	margin-top: -5%;
+ 	background-position: 0% 80%;
+ 	background-image: url(../img/work/fighter_town/background_000-1.png);
+ }
+ .pg-2-fighter h1{
+ 	margin-top: 20%;
+ }
+ .pg-2-fighter p, .pg-2-fighter img{
+ 	float: left;
+ }
+ .pg-2-fighter .sign{
+ 	float: right;
+ 	margin-top: 15px;
+ }
+ .pg-2-fighter .icon{
+ 	margin-left: 15%;
+	margin-top: -10%;
+ }
+ .pg-2-fighter .foot{
+ 	margin-top: -10%;
  }
