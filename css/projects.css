@@ -2,7 +2,7 @@
  * Estilos generales
  */
  .pg-1{
- 	height: 35em;	
+ 	height: 35em;
  }
  .pg-1 img{
  	display: block;
@@ -19,6 +19,20 @@
  	width: 50%;
 	padding: 5%;
  }
+
+  .pg-5 p{
+  width: 65%;
+  padding: 5%;
+ }
+
+  .pg-5{
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .pg-5 h1, .pg-5  h4{
+  text-align: center;
+ }
+
  .pg-3{
  	padding: 0px !important;
  }
@@ -146,3 +160,90 @@
 	margin-right: auto;
 	display: block;
  }
+
+
+  /*
+  * Chapital
+  */
+  .pg-2-chapital{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/grupo_Chapital/background_000-1.png);
+  }
+  .pg-2-chapital h1{
+    margin-top: 30%;
+  }
+
+  .chapital-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -75%;
+  }
+
+
+/*
+  * Tulum
+  */
+  .pg-2-tulum{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/tulum/background_000-1.png);
+  }
+  .pg-2-tulum h1{
+    margin-top: 30%;
+  }
+
+  .tulum-middle img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15%;
+  }
+
+
+/*
+  * Ah_Musen_Kab
+  */
+  .pg-2-ah_Musen{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/ah_Musen/background_000-1.png);
+  }
+  .pg-2-ah_Musen h1{
+    margin-top: 50%;
+  }
+
+  .ah_Musen-middle img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25%;
+  }
+
+/*
+  * Elsa_Elena
+  */
+  .pg-2-elsa_Elena{
+    margin-top: -15%;
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 60%;
+    background-image: url(../img/work/elsa_Elena/background_000.png);
+    text-align: center;
+  }
+  .pg-2-elsa_Elena h1{
+    margin-top: 30%;
+  }
+
+  .elsa_Elena-middle img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25%;
+  }

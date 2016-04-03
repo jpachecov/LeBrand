@@ -60,11 +60,11 @@
 }
 
 /*
- * Top black 
+ * Top black
  */
  .top-black{
   background: black;
-  width: 100%; 
+  width: 100%;
   height: 80px;
   margin: 0px;
 }
@@ -74,7 +74,7 @@
  */
 .top-white{
   background: white;
-  width: 100%; 
+  width: 100%;
   height: 80px;
   margin: 0px;
 }
@@ -115,7 +115,7 @@
   padding: 0% 5%;
 }
 .footer .last a{
-  text-decoration: none; 
+  text-decoration: none;
   color: white;
 }
 .footer .last div{
