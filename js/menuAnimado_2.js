@@ -1,9 +1,9 @@
 $(document).ready(function() {
 	//$("#menu-anim").css("transform", "translateX: -100%");
-	$.Velocity.hook($("#menu-anim"), "translateX", "-100%");
+	$.Velocity.hook($("#menu-anim2"), "translateY", "-410%");
 
-	$("#menu-anim").velocity("stop").velocity({
-					translateX: 0,
+	$("#menu-anim2").velocity("stop").velocity({
+					translateY: -5,
 				},{
 					duration: 500,
 					complete: function(){
@@ -43,7 +43,7 @@ $(document).ready(function() {
 	*/
 animando = false;
 
-	$("#menu").hover(
+	$("#menu2").hover(
 
 
 		function(){
@@ -55,8 +55,8 @@ animando = false;
 				return;
 			}
 			animando = true;*/
-			$("#menu-anim").velocity("stop").velocity({
-				translateX: 0,
+			$("#menu-anim2").velocity("stop").velocity({
+				translateY: -5,
 			},{
 				duration: 500,
 				complete: function(){
@@ -74,8 +74,8 @@ animando = false;
 
 			}
 			animando = true
-			$("#menu-anim").velocity("stop").velocity({
-					translateX: -100 + "%",
+			$("#menu-anim2").velocity("stop").velocity({
+					translateY: -410 + "%",
 			},{
 				duration: 2000,
 				complete: function(){
@@ -92,8 +92,8 @@ var onTop = true;
 			console.log($(this).scrollTop());
 			if($(this).scrollTop() == 0){
 				onTop = true;
-				$("#menu-anim").velocity("stop").velocity({
-					translateX: 0,
+				$("#menu-anim2").velocity("stop").velocity({
+					translateY: -5,
 				},{
 					duration: 500,
 					complete: function(){
@@ -108,10 +108,10 @@ var onTop = true;
 				}
 				animando = true;
 
-				$("#menu-anim").velocity("stop").velocity({
-					translateX: -100 + "%",
+				$("#menu-anim2").velocity("stop").velocity({
+					translateY: -410 + "%",
 				},{
-					duration: 2000,
+					duration: 1000,
 					complete: function(){
 						animando = false;
 					}
