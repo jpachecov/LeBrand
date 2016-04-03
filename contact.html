@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LeBrand</title>
 
-     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
      <link rel="stylesheet" href="css/contact.css">
       <link href="css/template.css" rel="stylesheet">
+      <script type='text/javascript' src='js/formulario.js'></script>
 
      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +75,7 @@
 					+(52) 222 1234567
 				</p>
 				<p>
-					Sepa la chucha # 139, Mexico City. Mx. 
+					Sepa la chucha # 139, Mexico City. Mx.
 				</p>
 			</div>
 		</div>
@@ -88,11 +89,17 @@
 			</p>
 			<form class="form-contact">
 				<label>Name.</label>
-				<input type="text">
+				<input name="nombre" type="text" id="nombre" class="form-control" placeholder="Nombre Completo">
+				<p id="error_nombre"></p>
 				<label>E-mail.</label>
-				<input type="text">
+				<input name="correo" type="email" id="correo"  class="form-control" value="" placeholder="Correo electronico">
 				<label>Message.</label>
-				<textarea name=""></textarea>
+				<textarea name="mensaje" cols="40" rows="5"  class="form-control" id = "comentario" placeholder="Dudas, comentarios o servicios de Interés"></textarea>
+				<p id="error_mensaje"></p>
+                      				<button id="boton_form"  onclick="valida_datos();">
+
+                      					<p>Enviar</p>
+                      				</button>
 			</form>
 		</div>
 		<div class="col-md-7 grid clear">
@@ -113,7 +120,7 @@
 			<div class="col-md-4 col-md-offset-4">
 				<span>Branding</span>
 				<span>Information</span>
-				<span>Marketing</span>	
+				<span>Marketing</span>
 			</div>
 			<div class="col-md-4">
 				<p class="legend">
