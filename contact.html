@@ -9,7 +9,8 @@
      <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
      <link rel="stylesheet" href="css/contact.css">
-      <link href="css/menuAnimado.css" rel="stylesheet">
+      <link href="css/template.css" rel="stylesheet">
+      <script type='text/javascript' src='js/formulario.js'></script>
 
      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +75,7 @@
 					+(52) 222 1234567
 				</p>
 				<p>
-					Sepa la chucha # 139, Mexico City. Mx. 
+					Sepa la chucha # 139, Mexico City. Mx.
 				</p>
 			</div>
 		</div>
@@ -86,14 +87,28 @@
 			<p>
 				For general enquiries or anything you'd like to discuss, please contact us here.
 			</p>
-			<form class="form-contact">
+			<div class="form-contact">
 				<label>Name.</label>
+<!--
+<<<<<<< HEAD
 				<input type="text" class='box'>
 				<label>E-mail.</label>
 				<input type="text" class='box'>
 				<label>Message.</label>
 				<textarea id="area_texto" class='box'></textarea>
-			</form>
+=======-->
+				<input name="nombre" type="text" id="nombre" class="form-control box" placeholder="Nombre Completo">
+				<p id="error_nombre"></p>
+				<label>E-mail.</label>
+				<input name="correo" type="email" id="correo"  class="form-control box" value="" placeholder="Correo electronico">
+				<label>Message.</label>
+				<textarea name="mensaje" cols="40" rows="5"  class="form-control box" id = "comentario" placeholder="Dudas, comentarios o servicios de Interés"></textarea>
+				<p id="error_mensaje"></p>
+                      				<button id="boton_form"  onclick="valida_datos();">
+
+                      					<p>Enviar</p>
+                      				</button>
+			</div>
 		</div>
 		<div class="col-md-7 grid clear">
 			<img src="img/contacto/foto_cdmx.png" class="img-contact">
@@ -113,7 +128,7 @@
 			<div class="col-md-4 col-md-offset-4">
 				<span>Branding</span>
 				<span>Information</span>
-				<span>Marketing</span>	
+				<span>Marketing</span>
 			</div>
 			<div class="col-md-4">
 				<p class="legend">

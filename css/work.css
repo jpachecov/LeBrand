@@ -6,24 +6,6 @@
     margin: 0 !important;
     position: relative;
 }
-.footer-gray{
-	background: #2B2E34;
-	color: white;
-	text-align: center;
-}
-.footer-gray a{
-	color:white;
-	text-decoration: none;
-}
-.footer-gray a:hover{
-	color: white;
-	text-decoration: none;
-	cursor: pointer;
-}
-.footer-gray .center-div{
-	width: 30%;
-	margin: 1% auto;
-}
-.footer-gray span{
-	padding: 10px;
+img:hover{
+	opacity: 0.5;
 }

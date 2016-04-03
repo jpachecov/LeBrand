@@ -1,0 +1,148 @@
+/*
+ * Estilos generales
+ */
+ .pg-1{
+ 	height: 35em;	
+ }
+ .pg-1 img{
+ 	display: block;
+	margin: 10em auto 0px;
+ }
+ .pg-2{
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+ .pg-2 h1, .pg-2  h4{
+ 	text-align: center;
+ }
+ .pg-2 p{
+ 	width: 50%;
+	padding: 5%;
+ }
+ .pg-3{
+ 	padding: 0px !important;
+ }
+ .pg-3 img{
+ 	width: 100%;
+ }
+ .bold{
+	font-weight: bold;
+ }
+
+ /*
+  * Agroamericana
+  */
+  .pg-2-agroamericana{
+  	color: white;
+  	margin-top: -25%;
+  	background-position: 0% 60%;
+	background-image: url(../img/work/agroamericana/background_000-1.png);
+  }
+  .pg-2-agroamericana h1{
+ 	margin-top: 40%;
+ }
+  .pg-2-agroamericana img{
+  	float: right;
+  }
+
+  /*
+   * Fighter Town
+   */
+ .pg-2-fighter{
+ 	padding: 0px !important;
+ 	color: black;
+ 	margin-top: -5%;
+ 	background-position: 0% 80%;
+ 	background-image: url(../img/work/fighter_town/background_000-1.png);
+ }
+ .pg-2-fighter h1{
+ 	margin-top: 20%;
+ }
+ .pg-2-fighter p, .pg-2-fighter img{
+ 	float: left;
+ }
+ .pg-2-fighter .sign{
+ 	float: right;
+ 	margin-top: 15px;
+ }
+ .pg-2-fighter .icon{
+ 	margin-left: 15%;
+	margin-top: -10%;
+ }
+ .pg-2-fighter .foot{
+ 	margin-top: -10%;
+ }
+
+ /*
+  * Sun Slice
+  */
+  .pg-2-sun{
+  	margin-top: -15%;
+  	color: white;
+  	padding-bottom: 10%;
+  	background-position: 0% 60%;
+  	background-image: url(../img/work/sun_slice/background_000-1.png);
+  }
+  .pg-2-sun h1{
+  	margin-top: 30%;
+  }
+  .sun-middle img{
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20%;
+  }
+
+/*
+ * JLTC
+ */
+ .pg-2-jltc{
+ 	margin-top: -35%;
+   	color: white;
+   	background-position: 0% 30%;
+   	background-image: url(../img/work/jltc/backgroud_000-1.png);
+ }
+ .pg-2-jltc h1{
+ 	margin-top: 55%;
+ }
+ .pg-2-jltc .icon{
+ 	margin-top: -20%;
+	margin-right: 10%;
+	float: right;
+ }
+ .pg-2-jltc .center-img{
+ 	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+ }
+ .jltc-middle img{
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15%;
+ }
+
+ /*
+  * Amerivacs
+  */
+  .pg-2-ameri{
+  	margin-top: -10%;
+  	color: white;
+  	background-position: 0% 70%;
+  	background-image: url(../img/work/amerivacs/background_000-1.png);
+  }
+  .pg-2-ameri h1{
+  	margin-top: 20%;
+  }
+  .pg-2-ameri .icon{
+  	float: right;
+	margin-top: -20%;
+	margin-right: 20%;
+  }
+  .pg-2-ameri .center-img{
+ 	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+ }
