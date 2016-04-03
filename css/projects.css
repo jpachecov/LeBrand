@@ -8,3 +8,30 @@
  	display: block;
 	margin: 10em auto 0px;
  }
+ .agro-pg-2{
+ 	margin-top: -25%;
+ 	color: white;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	background-position: 0% 60%;
+	background-image: url(../img/work/agroamericana/background_000-1.png);
+ }
+ .agro-pg-2 h1{
+ 	margin-top: 40%;
+ }
+ .agro-pg-2 h1, .agro-pg-2  h4{
+ 	text-align: center;
+ }
+ .agro-pg-2 p{
+ 	width: 50%;
+	padding: 5%;
+ }
+ .agro-pg-2 img{
+ 	float: right;
+ }
+ .agro-pg-3{
+ 	padding: 0px !important;
+ }
+ .agro-pg-3 img{
+ 	width: 100%;
+ }
