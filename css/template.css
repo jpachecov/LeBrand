@@ -59,6 +59,25 @@
 	color:white;
 }
 
+/*
+ * Top black 
+ */
+ .top-black{
+  background: black;
+  width: 100%; 
+  height: 80px;
+  margin: 0px;
+}
+
+/*
+ * Top white
+ */
+.top-white{
+  background: white;
+  width: 100%; 
+  height: 80px;
+  margin: 0px;
+}
 
 /*
  * Footer
