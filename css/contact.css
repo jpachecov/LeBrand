@@ -42,7 +42,7 @@
 .black-div{
 	background: black;
 	color: white;
-	padding: 3% 13% 3% 1% !important;
+	padding: 6% 13% 0% 2% !important;
 }
 .black-div p{
 	margin: 5% 0px;
@@ -58,7 +58,7 @@
 	color:black;
 }
 .form-contact{
-	padding-bottom: 5%;
+	padding-bottom: 0%;
 }
 .footer-black{
 	background: black;
@@ -82,6 +82,58 @@
 	padding: 10px;
 }
 
+.box{
+	border-radius: 0%;
+}
+
+.form-contact > label{
+	margin-top: 5%;
+}
+
+#area_texto{
+	height: 130px;
+}
+
+@font-face{
+	font-family: 'fuente_1';
+	src: url('fonts/GillSans.ttc');
+}
+
+@font-face{
+	font-family: 'fuente_2';
+	src: url('fonts/Marion.ttc');
+}
+
+@font-face{
+	font-family: 'fuente_3';
+	src: url('fonts/MinionPro-Regular.otf');
+}
+
+@font-face{
+	font-family: 'fuente_4';
+	src: url('fonts/Marion.ttc');
+}
+@font-face{
+	font-family: 'fuente_5';
+	src: url('fonts/Marion.ttc');
+}
+
+.font_1{
+	font-family: 'fuente_1';
+}
+.font_2{
+	font-family: 'fuente_2';
+}
+.font_3{
+	font-family: 'fuente_3';
+}
+.font_4{
+	font-family: 'fuente_4';
+}
+.font_5{
+	font-family: 'fuente_5';
+}
+
 form-control{
     border: none;
     border-bottom: 1px solid #333;
@@ -103,4 +155,3 @@ button{
 	color:white;
      cursor:pointer;
 }
-
