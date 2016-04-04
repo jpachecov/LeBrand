@@ -1,7 +1,7 @@
 var hayErrores = false;
-var error_nombre = {sel:"#error_nombre",desc:"Proporciona un nombre válido.",state:false};
-var error_correo = {sel:"#error_correo",desc:"Proporciona un correo válido",state:false};
-var error_mensaje = {sel:"#error_mensaje",desc:"¡No olvides dejarnos tu mensaje de al menos 10 carácteres!",state:false}
+var error_nombre = {sel:"#error_nombre",desc:"Invalid name.",state:false};
+var error_correo = {sel:"#error_correo",desc:"Invalid mail.",state:false};
+var error_mensaje = {sel:"#error_mensaje",desc:"Please tell us more!",state:false}
 var errores = [error_nombre,error_correo,error_mensaje];
 var num_mensajes = 0;
  function verifica(tipo,valor){
