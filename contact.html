@@ -21,44 +21,45 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body onload="init_lang('contact')">
 	<div id='menu'>
-        <a id='logo' href="#"></a><!--
+        <a id='logo' href="index.html"></a><!--
       --><ul id="menu-anim" class='menu'>
-        <li >
-          <a  href="index.html">PORTFOLIO</a>
+        <li>
+          <a  href="index.html" class="m-ph1">PORTFOLIO</a>
         </li><!--
       --><li>
-          <a href="about_us.html">ABOUT US</a>
+          <a href="about_us.html" class="m-ph2">ABOUT US</a>
         </li><!--
       --><li>
-          <a href="work.html">WORK</a>
+          <a href="work.html" class="m-ph3">WORK</a>
         </li><!--
       --><li>
-          <a href="contact.html">CONTACT US</a>
+          <a href="contact.html" class="m-ph4">CONTACT US</a>
         </li>
       </ul>
     </div>
+
     <div id='menu2' style='display:none'>
         <a id='logo' href="index.html"></a><!--
         --><ul id="menu-anim2" class='menu2'>
         <li>
-          <a  href="index.html">PORTFOLIO</a>
+          <a  href="index.html" class="m-ph1">PORTFOLIO</a>
         </li><!--
         --><li>
-          <a href="about_us.html">ABOUT US</a>
+          <a href="about_us.html" class="m-ph2">ABOUT US</a>
         </li><!--
         --><li>
-          <a href="work.html">WORK</a>
+          <a href="work.html" class="m-ph3">WORK</a>
         </li><!--
         --><li>
-          <a href="contact.html">CONTACT US</a>
+          <a href="contact.html" class="m-ph4">CONTACT US</a>
         </li>
       </ul>
     </div> 
 
 	<div class="row clear">
-		<h1 class="title">We'd love to hear from you.</h1>
+		<h1 class="title ph1">We'd love to hear from you.</h1>
 	</div>
 	<div class="row clear">
 		<div class="col-md-7 grid clear">
@@ -66,10 +67,10 @@
 		</div>
 		<div class="col-md-5 grid clear data">
 			<span class="little-border-black"></span>
-			<h3 class='font_3'>Studios.</h3>
+			<h3 class='font_3 ph2'>Studios.</h3>
 			<div class="row clear separete">
-				<h4 class="black">Italy</h4>
-				<p>
+				<h4 class="black ph3">Italy</h4>
+				<p class="ph4">
 					<span class="black">Alexander Tadlock - </span> General Manager
 				</p>
 				<p>
@@ -83,9 +84,9 @@
 				</p>
 			</div>
 			<div class="row clear">
-				<h4 class="black">Mexico</h4>
+				<h4 class="black ph5">Mexico</h4>
 				<p>
-					<span class="black">Enrique Hinzpeter - </span> General Manager
+					<span class="black ph6">Enrique Hinzpeter - </span> General Manager
 				</p>
 				<p>
 					<span class="black">hinzpeter</span>@lebrandcapital.com
@@ -93,7 +94,7 @@
 				<p>
 					+(52) 222 1234567
 				</p>
-				<p>
+				<p class="ph7">
 					Sepa la chucha # 139, Mexico City. Mx.
 				</p>
 			</div>
@@ -102,12 +103,12 @@
 	<div class="row clear" style="background-color:black">
 		<div class="col-md-5 grid clear black-div form">
 			<span class="little-border-white"></span>
-			<h3>About your project.</h3>
-			<p>
+			<h3 class="ph8">About your project.</h3>
+			<p class="ph9">
 				For general enquiries or anything you'd like to discuss, please contact us here.
 			</p>
 			<div class="form-contact">
-				<label>Name.</label>
+				<label class="ph10">Name.</label>
 <!--
 <<<<<<< HEAD
 				<input type="text" class='box'>
@@ -118,14 +119,15 @@
 =======-->
 				<input name="nombre" type="text" id="nombre" class="form-control box">
 				<p id="error_nombre"></p>
-				<label>E-mail.</label>
+				<label class="ph11">E-mail.</label>
 				<input name="correo" type="email" id="correo"  class="form-control box" value="">
 				<p id="error_correo"></p>
-				<label>Message.</label>
+				<label class="ph12">Message.</label>
+
 				<textarea name="mensaje" cols="40" rows="5"  class="form-control box" id = "comentario"></textarea>
 				<p id="error_mensaje"></p>
   				<button id="boton_form"  onclick="valida_datos();">
-  					<p>Send</p>
+  					<p class="ph13">Send</p>
   				</button>
 			</div>
 		</div>
@@ -160,7 +162,7 @@
 	</div>-->
     <div class="footer">
       <img src="img/le_brand_title.png" class="title-png">
-      <h4>Empowering visual capital.</h4>
+      <h4 class="f-ph1">Empowering visual capital.</h4>
       <div class="icon">
         <a href="">
           <i class="fa fa-thumbs-o-up fa-2x"></i>
@@ -174,21 +176,21 @@
       </div>
       <div class="last">
         <div class="lang">
-          <a href="">ENGLISH</a>
-          <a href="">ESPAÑOL</a>
+          <a onclick="translate_page('index', 'en')">ENGLISH</a>
+          <a onclick="translate_page('index', 'es')">ESPAÑOL</a>
         </div>
         <div class="info">
-          <span>
+          <span class="f-ph2">
             BRANDING
           </span>
-          <span>
+          <span class="f-ph3">
             INFORMATION DESIGN
           </span>
-          <span>
+          <span class="f-ph4">
             MARKETING
           </span>
         </div>
-        <div>
+        <div class="f-ph5">
           © 2016 Le Brand capital. All Rights Reserved.
         </div>
       </div>
@@ -199,8 +201,9 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/velocity.min.js"></script>
 <script src="js/menuAnimado.js"></script>
-    <script src="js/menuAnimado_2.js"></script>
-    <script src="js/verificaMenu.js"></script>
+<script src="js/menuAnimado_2.js"></script>
+<script src="js/verificaMenu.js"></script>
+<script src="js/translate.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
