@@ -37,40 +37,40 @@ var transale = {
 			'es' : '<span class="black">Alexander Tadlock - </span> Gerente General'
 		},
 		'ph5':{
-			'en' : '',
-			'es' : ''
+			'en' : 'Mexico',
+			'es' : 'México'
 		},
 		'ph6':{
-			'en' : '',
-			'es' : ''
+			'en' : '<span class="black">Enrique Hinzpeter - </span> General Manager',
+			'es' : '<span class="black">Enrique Hinzpeter - </span> Gerente General'
 		},
 		'ph7':{
-			'en' : '',
-			'es' : ''
+			'en' : 'Sepa la chucha # 139, Mexico City. Mx.',
+			'es' : 'Sepa la chucha # 139, Ciudad de México. Mx.'
 		},
 		'ph8':{
-			'en' : '',
-			'es' : ''
+			'en' : 'About your project.',
+			'es' : 'Sobre su proyecto.'
 		},
 		'ph9':{
-			'en' : '',
-			'es' : ''
+			'en' : "For general enquiries or anything you'd like to discuss, please contact us here.",
+			'es' : 'Para consultas generales o cualquier cosa que le gustaría hablar , por favor, póngase en contacto con nosotros aquí .'
 		},
 		'ph10':{
-			'en' : '',
-			'es' : ''
+			'en' : 'Name.',
+			'es' : 'Nombre'
 		},
 		'ph11':{
-			'en' : '',
-			'es' : ''
+			'en' : 'E-mail.',
+			'es' : 'Correo electrónico.'
 		},
 		'ph12':{
-			'en' : '',
-			'es' : ''
+			'en' : 'Message.',
+			'es' : 'Mensaje.'
 		},
 		'ph13':{
-			'en' : '',
-			'es' : ''
+			'en' : 'Send',
+			'es' : 'Enviar'
 		}
 	},
 
