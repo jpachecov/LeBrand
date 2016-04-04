@@ -19,42 +19,43 @@
     <![endif]-->
 
 </head>
-<body>
+<body onload="init_lang('index')">
 
 	<div id='menu'>
         <a id='logo' href="index.html"></a><!--
       --><ul id="menu-anim" class='menu'>
-        <li >
-          <a  href="index.html">PORTFOLIO</a>
+        <li>
+          <a  href="index.html" class="m-ph1">PORTFOLIO</a>
         </li><!--
       --><li>
-          <a href="about_us.html">ABOUT US</a>
+          <a href="about_us.html" class="m-ph2">ABOUT US</a>
         </li><!--
       --><li>
-          <a href="work.html">WORK</a>
+          <a href="work.html" class="m-ph3">WORK</a>
         </li><!--
       --><li>
-          <a href="contact.html">CONTACT US</a>
+          <a href="contact.html" class="m-ph4">CONTACT US</a>
         </li>
       </ul>
     </div>
+
     <div id='menu2' style='display:none'>
         <a id='logo' href="index.html"></a><!--
         --><ul id="menu-anim2" class='menu2'>
         <li>
-          <a  href="index.html">PORTFOLIO</a>
+          <a  href="index.html" class="m-ph1">PORTFOLIO</a>
         </li><!--
         --><li>
-          <a href="about_us.html">ABOUT US</a>
+          <a href="about_us.html" class="m-ph2">ABOUT US</a>
         </li><!--
         --><li>
-          <a href="work.html">WORK</a>
+          <a href="work.html" class="m-ph3">WORK</a>
         </li><!--
         --><li>
-          <a href="contact.html">CONTACT US</a>
+          <a href="contact.html" class="m-ph4">CONTACT US</a>
         </li>
       </ul>
-    </div> 
+    </div>
 
     <div class="top-black"></div>
 
@@ -215,8 +216,8 @@
 	</div>
 
 	<div class="footer">
-      <img src="img/le_brand_title.png" class="title-png" >
-      <h4>Empowering visual capital.</h4>
+      <img src="img/le_brand_title.png" class="title-png">
+      <h4 class="f-ph1">Empowering visual capital.</h4>
       <div class="icon">
         <a href="">
           <i class="fa fa-thumbs-o-up fa-2x"></i>
@@ -230,21 +231,21 @@
       </div>
       <div class="last">
         <div class="lang">
-          <a href="">ENGLISH</a>
-          <a href="">ESPAÑOL</a>
+          <a onclick="translate_page('index', 'en')">ENGLISH</a>
+          <a onclick="translate_page('index', 'es')">ESPAÑOL</a>
         </div>
         <div class="info">
-          <span>
+          <span class="f-ph2">
             BRANDING
           </span>
-          <span>
+          <span class="f-ph3">
             INFORMATION DESIGN
           </span>
-          <span>
+          <span class="f-ph4">
             MARKETING
           </span>
         </div>
-        <div>
+        <div class="f-ph5">
           © 2016 Le Brand capital. All Rights Reserved.
         </div>
       </div>
@@ -256,8 +257,9 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/velocity.min.js"></script>
 <script src="js/menuAnimado.js"></script>
-    <script src="js/menuAnimado_2.js"></script>
-    <script src="js/verificaMenu.js"></script>
+<script src="js/menuAnimado_2.js"></script>
+<script src="js/verificaMenu.js"></script>
+<script src="js/translate.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
