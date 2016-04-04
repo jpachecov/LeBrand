@@ -18,6 +18,62 @@ var transale = {
 			'es' : 'CONTACTO'
 		}
 	},
+
+	'contact':{
+		'ph1':{
+			'en' : "We'd love to hear from you.",
+			'es' : 'Queremos saber de ti.'
+		}, 
+		'ph2':{
+			'en' : 'Studios.',
+			'es' : 'Estudios.'
+		},
+		'ph3':{
+			'en' : 'Italy',
+			'es' : 'Italia'
+		},
+		'ph4':{
+			'en' : '<span class="black">Alexander Tadlock - </span> General Manager',
+			'es' : '<span class="black">Alexander Tadlock - </span> Gerente General'
+		},
+		'ph5':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph6':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph7':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph8':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph9':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph10':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph11':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph12':{
+			'en' : '',
+			'es' : ''
+		},
+		'ph13':{
+			'en' : '',
+			'es' : ''
+		}
+	},
+
 	'footer':{
 		'f-ph1':{
 			'en' : 'Empowering visual capital.',
