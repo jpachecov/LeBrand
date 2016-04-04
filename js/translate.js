@@ -145,15 +145,15 @@ var transale = {
 		'ph12':{
 			'en' : 'Mexican-Californian fresh produce agribusiness brand.',
 			'es' : 'Empresa mexicana-americana comercializadora de productos con la mejor calidad.'
-		}
+		},
 		'ph13':{
 			'en' : 'The local government administration of Tulum image of 2014- 2016.',
 			'es' : 'Identidad de la administración del Gobierno de Tulúm de 2014 a 2016.'
-		}
+		},
 		'ph14':{
 			'en' : 'A magazine focusing on topics such as music, design, and art from Puebla, Mexico.',
 			'es' : 'Revista Vintage la cual fue premiada como Mejor Proyecto Editorial Universitario Nacional 2013 por la asosiación mexicana de diseño.'
-		}
+		},
 		'ph15':{
 			'en' : 'A national American vacuum sealers company.',
 			'es' : 'Empresa Americana especializada en elaboración de maquinas de sellado al vacio, con gran trayectoria nacional.'
