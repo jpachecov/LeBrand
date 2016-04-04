@@ -17,10 +17,12 @@ var num_mensajes = 0;
        }
       break;
      case "correo":
-
+        console.log("verificando " + valor + " h");
+        console.log(typeof(valor));
        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-    	 if(!re.test(valor)){
+    	 if(!re.test(valor) || valor === null || valor === ""){
     	    hayErrores = true;
+          console.log("hay error ccorreo");
           error_correo.state = true;
           break;
     	 } else {
@@ -76,7 +78,7 @@ function valida_datos(){
 
       //Animacion circulo
       $("#boton_form p").animate({opacity:0},300,function(){
-        $("#boton_form p").html("¡Muchas gracias!");
+        $("#boton_form p").html("Thank you!");
         $("#boton_form p").animate({opacity:1,fontSize:"35px"},300)
       });
 
@@ -108,8 +110,11 @@ function valida_datos(){
               $("#boton_form").css("width","");
               $("#boton_form").css("height","");
               $("#boton_form").css("top","");
-              $("#boton_form p").html("Enviar");
-            $("#boton_form").animate({opacity:1},1000);
+              $("#boton_form p").html("Send");
+            $("#boton_form").animate({opacity:1},1000, function(){
+              console.log("termino faceIn");
+            });
+            //$("#boton_form").fadeIn();
       });
 
   } else {
@@ -129,9 +134,9 @@ function valida_datos(){
 }
 
 function desapareceError(error){
-  console.log(error.sel);
+  console.log("desaparece " + error.sel);
   error.state = false;
-  $(error.sel).animate({opacity:0.0},2000);
+  $(error.sel).fadeOut();
 
 }
 
