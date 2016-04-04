@@ -155,3 +155,9 @@ button{
 	color:white;
      cursor:pointer;
 }
+
+
+#boton_form{
+	float: right;
+	border-radius: 0%;
+}
