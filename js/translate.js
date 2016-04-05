@@ -95,6 +95,69 @@ var transale = {
 			'en' : '© 2016 Le Brand capital. All Rights Reserved.',
 			'es' : '© 2016 Le Brand capital. Todos los derechos reservados.'
 		}
+	} ,
+
+	'home':{
+		'ph1':{
+			'en' : "New plaza boutique located at Tuxtla Gutierrez, Chiapas.",
+			'es' : 'Agora: Nueva  plaza boutique en la ciudad de Tuxtla Gutiérrez, Chiapas.'
+		}, 
+		'ph2':{
+			'en' : 'Honey Bee’s company in the state of Quintana Roo, Mexico.',
+			'es' : 'Sociedad cooperativa apicultora DzAh Muzen Kabdz del Estado de Quintana Roo.'
+		},
+		'ph3':{
+			'en' : 'Studio and record producer in Cholula, Puebla.',
+			'es' : 'Casa productora musical en Cholula, Puebla.'
+		},
+		'ph4':{
+			'en' : 'The biggest marketing of electric automotive parts of the Mexican southwest region.',
+			'es' : '<strong> Comercializadora </strong> de autopartes y refacciones automotrices del Sureste de México.'
+		},
+		'ph5':{
+			'en' : 'Californian new agribusiness company.',
+			'es' : 'Comercializadora californiana de frutas y verduras en Estados Unidos.'
+		},
+		'ph6':{
+			'en' : 'Conectando México foundation, has the objective of giving free Internet with educational purpose.',
+			'es' : 'Fundación Conectando México tiene el propósito de proveer de Internet gratuito con fines educativos.'
+		},
+		'ph7':{
+			'en' : 'Fighter Town Brewing Co. In 2016 will be San Diego’s primer contract brewer.',
+			'es' : 'Será en 2016 la primera cervecería/ embotelladora artesanal en San Diego, California. '
+		},
+		'ph8':{
+			'en' : 'One of the most important marble companies inn the Mexico’s southeastern region.',
+			'es' : 'Empresa marmolera más importantes del sureste de México.'
+		},
+		'ph9':{
+			'en' : 'JLTC Holding, with a variety of financial companies but it mainly specialize in Agro-business, Financial investment and real state.',
+			'es' : 'Holding familiar JLTC, el cual se especializa en los agronegocios, inversión financiera y bienes raíces.'
+		},
+		'ph10':{
+			'en' : 'Agrobusiness holding with offices in Mexico, California and New York.',
+			'es' : 'Holding de agronegocios con oficinas en México, California y Nueva York .'
+		},
+		'ph11':{
+			'en' : 'The well-known architect Elsa Elena, who has a bright future in the architecture and interior design fields.',
+			'es' : 'Renombrada arquitecta y especialista en interiorismo, Arq. Elsa Elena González Labrada.'
+		},
+		'ph12':{
+			'en' : 'Mexican-Californian fresh produce agribusiness brand.',
+			'es' : 'Empresa mexicana-americana comercializadora de productos con la mejor calidad.'
+		},
+		'ph13':{
+			'en' : 'The local government administration of Tulum image of 2014- 2016.',
+			'es' : 'Identidad de la administración del Gobierno de Tulúm de 2014 a 2016.'
+		},
+		'ph14':{
+			'en' : 'A magazine focusing on topics such as music, design, and art from Puebla, Mexico.',
+			'es' : 'Revista Vintage la cual fue premiada como Mejor Proyecto Editorial Universitario Nacional 2013 por la asosiación mexicana de diseño.'
+		},
+		'ph15':{
+			'en' : 'A national American vacuum sealers company.',
+			'es' : 'Empresa Americana especializada en elaboración de maquinas de sellado al vacio, con gran trayectoria nacional.'
+		}
 	}
 }
 

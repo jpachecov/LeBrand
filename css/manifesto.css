@@ -17,12 +17,15 @@ a:hover{
 	text-decoration: none;
 	cursor: pointer;
 }
+img{
+	width:100%;
+}
 .circle-li:before {
     content: "• ";
     color: #7B7D80;
 }
 .padding-estandar{
-	padding: 3%;
+	padding: 2%;
 	box-sizing: border-box;
 }
 .title-gray{
@@ -69,12 +72,17 @@ a:hover{
 }
 
 .p-description{
-	width: 40%;
+	width: 55%;
+	padding:0.8% 0;
+}
+
+.nopad{
+	padding:0;
 }
 
 /*Fondos*/
-.gray{
-	background-color: #606267;
+.white{
+
 	color: white;
 }
 .dark-gray{
@@ -105,3 +113,88 @@ a:hover{
 .bold{
 	font-weight: bold;
 }
+
+.logossmallCenter{
+	width:200px;
+	margin:0 auto;
+	padding:4% 0;
+
+}
+
+.logosbigCenter{
+	width:300px;
+	margin:0 auto;
+	padding:4% 0;
+
+}
+
+#fondo{
+	width:100%;
+	height:100%;
+	opacity: 1;
+	position: absolute;
+	z-index: 0
+}
+
+
+
+#fondo img{
+	width:100%;
+}
+
+#contenedor{
+	display: block;
+    position: relative;
+}
+
+#aboutUno{
+ 	width:30%;
+ 	position: absolute;
+ 	right: 0;
+ 	z-index: 1;
+ 	top: -25%;
+}
+
+
+#aboutDos{
+ 	width:100%;
+ 	position: relative;
+ 	right: 0;
+ 	z-index: 1;
+}
+
+#aboutDos img {
+ 	position: relative;
+ 	right: 0
+
+}
+
+.uno{
+	position: relative;
+	z-index: 1;	
+	background:transparent;
+	top: 100px;
+
+}
+
+.title{
+	font-size: 60px;
+}
+
+.subtitle{
+	font-size: 24px;
+}
+
+.text{
+	font-size: 19px;
+}
+
+#second{
+	position: relative;
+	z-index: 1;	
+	background:transparent;
+
+	
+}
+
+
