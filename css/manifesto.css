@@ -19,6 +19,7 @@ a:hover{
 }
 img{
 	width:100%;
+	height: 100%;
 }
 .circle-li:before {
     content: "• ";
@@ -28,9 +29,18 @@ img{
 	padding: 2%;
 	box-sizing: border-box;
 }
+
+.padding-estandar2{
+	padding: 0 2%;
+	box-sizing: border-box;
+}
+
+
 .title-gray{
 	color: #7B7D80;
 }
+
+
 
 /*Números*/
 .big-number span{
@@ -193,8 +203,418 @@ img{
 	position: relative;
 	z-index: 1;	
 	background:transparent;
+}
 
-	
+.fondoGris{
+  background: #5F6266;
+  /*background-image: url(../img/nosotros/fondo.png);
+ background-size: contain;
+    background-repeat: no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+.fondoBlanco{
+  background: #fff;
+}
+
+.cont{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.textCircles{
+	color: white;
+    font-size: 12px;
+    position: relative;
+    width: auto;
+    top: 6px;
+    text-align: center
+}
+
+#circulo{
+	width: 100%;
+    height: 470px;
+    position: relative;
+}
+
+#dna{
+    position: relative;
+    width: 10%;
+    left: 50%;
+    top: 0;
+    margin-left: -4%;
+}
+
+#linea1{
+    position: relative;
+    width: 7%;
+    left: 50%;
+    top: 80%;
+}
+
+#idea{
+    position: relative;
+    width: 8%;
+    left: 47%;
+    top: 8px;
+   }
+
+#linea2{
+    position: absolute;
+    width: 14%;
+    left: 30%;
+    top: 40px;
+}
+
+#linea3{
+    position: absolute;
+    width: 14%;
+    left: 57%;
+    top: 36px;
+
+}
+
+#comportamiento{
+    position: absolute;
+    width: 8%;
+    left: 24%;
+    top: 30%;
 }
 
 
+#personalidad{
+    position: absolute;
+    width: 8%;
+    left: 68%;
+    top: 30%;
+}
+
+#linea4{
+position: absolute;
+    width: 6%;
+    left: 27%;
+    top: 49%;
+
+}
+
+#linea5{
+position: absolute;
+    width: 6%;
+    left: 67%;
+    top: 49%;
+
+}
+
+#relaciones{
+    position: absolute;
+    width: 8%;
+    left: 33%;
+    top: 69%;
+}
+
+#valoresymetas{
+    position: absolute;
+    width: 8%;
+    left: 59%;
+    top: 69%;
+}
+
+#linea6{
+     position: absolute;
+    width: 15%;
+    left: 42.5%;
+    top: 79%;
+}   
+
+#linea7{
+ position: absolute;
+    width: 1%;
+    left: 49%;
+    top: 92%;
+
+}   
+
+#identidad{
+    position: absolute;
+    width: 10%;
+    left: 44%;
+    top: 134%;
+}
+
+#linea8{
+	position: relative;
+	width: 7%;
+	float:left;
+	left: 23%;
+
+}
+
+#texto1{
+    position: relative;
+    float: left;
+    width: 16%;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    top: 97px;
+    left: 26%;
+}
+
+#linea9{
+    position: relative;
+    width: 15%;
+    float: left;
+    left: 32%;
+    top: 121px;
+
+}
+
+#imagen{
+    position: relative;
+    float: left;
+    width: 6%;
+    left: 37%;
+    top: 82px;
+}
+
+#linea10{
+position: relative;
+    width: 6%;
+    float: right;
+    right: 21.5%;
+    top: 0px;
+
+}
+
+#texto2{
+    position: relative;
+    float: right;
+    width: 16%;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    top: 20px;
+    right: 23%;
+}
+
+#linea11{
+position: relative;
+    width: 7%;
+    float: right;
+    right: 24%;
+    top: 53px;
+
+}
+
+#marca{
+    position: relative;
+    width: 6%;
+    left: 44%;
+}
+
+#linea12{
+    position: relative;
+    width: 0.3%;
+    top: 21px;
+    left: 47%;
+}
+
+#bigCircle{
+	position: relative;
+	width:50%;
+	margin:0 auto; 
+	height: 700px;
+}
+
+#tono{
+    width: 8%;
+    left: 40%;
+    position: absolute;
+    top: 30px;
+}
+
+#linea13{
+    position: absolute;
+    width: 10%;
+    left: 28%;
+    top: 10%;
+}
+
+#linea14{
+	position: absolute;
+	width: 10%;
+	left: 50%;
+    top: 10%;
+}
+
+#diseno{
+width: 8%;
+    left: 20%;
+    position: absolute;
+    top: 100px;
+}
+
+#logotipo{
+    width: 8%;
+    left: 59%;
+    position: absolute;
+    top: 104px;
+
+}
+
+#linea15{
+    position: absolute;
+    width: 5%;
+    left: 15%;
+    top: 24%;
+}
+
+#linea16{
+position: absolute;
+    width: 4%;
+    left: 67%;
+    top: 24%;
+}
+
+#tipografia{
+    width: 8%;
+    left: 10%;
+    position: absolute;
+    top: 244px;
+
+}
+
+#recursos{
+    width: 8%;
+    left: 68%;
+    position: absolute;
+    top: 237px;
+}
+
+#linea17{
+    position: absolute;
+    width: 2%;
+    left: 13%;
+    top: 48%;
+}
+
+#linea18{
+    position: absolute;
+    width: 2%;
+    left: 71%;
+    top: 48%;
+}
+
+#estilo{
+width: 8%;
+    left: 14%;
+    position: absolute;
+    top: 410px;
+}
+
+#paleta{
+    width: 8%;
+    left: 64%;
+    position: absolute;
+    top: 403px;
+}
+
+#linea19{
+position: absolute;
+    width: 7%;
+    left: 22%;
+    top: 68%;
+}
+
+#linea20{
+    position: absolute;
+    width: 6%;
+    left: 60%;
+    top: 69%;
+}
+
+#foto{
+    width: 8%;
+    left: 30%;
+    position: absolute;
+    top: 503px;
+}
+
+#icono{
+    width: 8%;
+    left: 51%;
+    position: absolute;
+    top: 507px;
+}
+#linea21{
+    position: absolute;
+    width: 9%;
+    left: 40%;
+    top: 79%;
+}
+
+#linea22{
+    position: absolute;
+    width: 0.6%;
+    left: 44%;
+    top: 84%;
+}
+
+
+#texto3{
+    position: relative;
+    width: 16%;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    left: 39.5%;
+    top: -10px;
+}
+
+#linea23{
+    position: relative;
+    width: 0.3%;
+    left: 47%;
+}
+
+#bran{
+    width: 22%;
+    left: 36.2%;
+    position: absolute;
+    top: 21%;
+}
+
+#linea24{
+position: relative;
+    width: 0.3%;
+    left: 47%;
+    top: 26%;
+}
+
+#texto4{
+    position: relative;
+    width: 16%;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    left: 39.5%;
+    top: 145px;
+}
+
+#linea25{
+position: relative;
+    width: 0.3%;
+    left: 47%;
+    top: 31%;
+}
+
+#experiencia{
+    width: 5%;
+    left: 44.8%;
+    position: absolute;
+    top: 78%;
+}
