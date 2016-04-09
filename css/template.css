@@ -30,7 +30,7 @@ body{
   z-index: 5;
   font-family: "GillSans", sans-serif;
   font-weight: bold;
-} 
+}
 #logo{
 	display: inline-block;
     width: 75px;
@@ -87,7 +87,7 @@ body{
   width: 80%;
   height: 60px;
   position: fixed;
-  z-index: 5; 
+  z-index: 5;
   margin-left: 10%;
   font-family: "GillSans", sans-serif;
 }
@@ -213,4 +213,27 @@ body{
 }
 .footer .f-ph5{
   font-size: 12px;
+}
+
+
+@font-face{
+  font-family: 'titulo_proy';
+  src: url('fonts/marion.woff');
+}
+@font-face{
+  font-family: 'descrip_proy';
+  src: url('fonts/marion.woff');
+}
+
+
+.fuenteTitulo{
+  font-family: 'titulo_proy';
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.fuenteDescrip{
+  font-family: 'descrip_proy';
+  font-size: 15px;
+  color: #c1c0c0;
 }
