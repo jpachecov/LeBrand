@@ -67,6 +67,18 @@
   top: 40%;
 }
 
+@font-face{
+  font-family: 'titulo_proy';
+  src: url('fonts/Marion.ttc');
+}
+
+.fuenteTitulo{
+  font-family: 'titulo_proy';
+}
+
 .fondoGris{
   background: #ccc;
 }
+
+
+
