@@ -9,6 +9,13 @@ font-weight: normal;
 src: url(fonts/gillsans.woff);
 }
 
+@font-face{
+  font-family: 'Marion';
+  font-style: normal;
+  font-weight: normal;
+
+  src: url(fonts/marion.woff);
+}
 /*
  * Body
  */
