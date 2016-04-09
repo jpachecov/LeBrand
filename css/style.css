@@ -47,7 +47,7 @@
     background-color:rgba(0,0,0,0.9);
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: left;
     z-index: 3;
     opacity: 0;
     
@@ -66,16 +66,31 @@
   position: relative;
   top: 40%;
 }
+.text > p{
+  position: relative;
+  top: 50%;
+}
 
 @font-face{
   font-family: 'titulo_proy';
-  src: url('fonts/Marion.ttc');
+  src: url('fonts/marion.woff');
 }
+@font-face{
+  font-family: 'descrip_proy';
+  src: url('fonts/marion.woff');
+}
+
 
 .fuenteTitulo{
   font-family: 'titulo_proy';
+  font-size: 2vw;
+  color: #ffffff;
 }
 
+.fuenteDescrip{
+  font-family: 'descrip_proy';
+  color: #c1c0c0;
+}
 .fondoGris{
   background: #ccc;
 }
