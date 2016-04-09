@@ -1,4 +1,26 @@
 /*
+ * Fonts
+ */
+@font-face {
+font-family: "GillSans";
+font-style: normal;
+font-weight: normal;
+
+src: url(fonts/gillsans.woff);
+}
+
+/*
+ * Body
+ */
+body{
+  display: block;
+  margin: 0px auto;
+  width: 95%;
+  max-width: 2500px;
+}
+
+
+/*
  * Menú
  */
 #menu{
@@ -6,7 +28,7 @@
 	height: 80px;
 	position: fixed;
     z-index: 5;
-}
+} 
 #logo{
 	display: inline-block;
     width: 75px;
@@ -58,10 +80,6 @@
 
 	color:white;
 }
-
-
-
-
 
 #menu2{
   width: 80%;
@@ -142,12 +160,18 @@
  * Footer
  */
 .footer{
+  font-family: "GillSans", sans-serif;
   color: white;
   background-color: black;
   text-align: center;
   font-size: 12px;
-  padding: 5% 0%;
+  padding: 4% 0%;
 }
+.footer .fa{
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .footer span{
   font-size: 12px;
 }
@@ -155,7 +179,7 @@
   width: 125px;
 }
 .icon{
-  margin:2% 0%;
+  margin:1% 0%;
 }
 .icon a{
   padding: 0px 15px;
@@ -165,6 +189,7 @@
   color: white;
 }
 .footer .last{
+  font-size: 15px;
   float: left;
   background: black;
   width: 100%;
@@ -182,4 +207,8 @@
 }
 .footer .last .info span{
   padding: 0% 3%;
+  font-size: 15px;
+}
+.footer .f-ph5{
+  font-size: 12px;
 }
