@@ -27,7 +27,9 @@ body{
 	width: 80%;
 	height: 80px;
 	position: fixed;
-    z-index: 5;
+  z-index: 5;
+  font-family: "GillSans", sans-serif;
+  font-weight: bold;
 } 
 #logo{
 	display: inline-block;
@@ -57,7 +59,6 @@ body{
 	display: inline-block;
 	text-decoration: none;
 	color: black;
-	font: bold 15px "BentonSans","Arial",sans-serif;
 	position: relative;
 	top: 40%;
 
@@ -85,8 +86,9 @@ body{
   width: 80%;
   height: 60px;
   position: fixed;
-    z-index: 5; 
-    margin-left: 10%;
+  z-index: 5; 
+  margin-left: 10%;
+  font-family: "GillSans", sans-serif;
 }
 
 #menu2 > #logo{
@@ -111,7 +113,6 @@ body{
   display: inline-block;
   text-decoration: none;
   color: black;
-  font: bold 1vw "BentonSans","Arial",sans-serif;
   position: relative;
   top: 40%;
   font-size: 4vw;
