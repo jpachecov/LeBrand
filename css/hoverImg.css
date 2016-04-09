@@ -48,4 +48,13 @@
 
 .text > p{
   position: relative;
+  top: 50%;
+  left: 5%;
+}
+
+
+.text > span{
+  position: relative;
+  top: 40%;
+  left: 5%;
 }
