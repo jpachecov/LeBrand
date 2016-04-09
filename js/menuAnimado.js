@@ -11,36 +11,7 @@ $(document).ready(function() {
 					}
 
 				});
-	/*
-	$("#menu").hover(
 
-		function(){
-			$("#menu-anim").velocity({
-				translateX: 0,
-			},{
-				duration: 500,
-
-			});
-			onMenu = true;
-		},
-		function(){
-
-			//setTimeout(function(){
-			 if (onMenu) {
-				onMenu = false;
-				$("#menu-anim"). velocity("stop").velocity("reverse");
-
-
-			}else{
-
-				$("#menu-anim").velocity("stop", "myQueue");
-			}
-			//}, 2000);
-
-		}
-	);
-
-	*/
 animando = false;
 
 	$("#menu").hover(
@@ -50,11 +21,7 @@ animando = false;
 			if(onTop){
 				return;
 			}
-			/*
-			if(animando){
-				return;
-			}
-			animando = true;*/
+
 			$("#menu-anim").velocity("stop").velocity({
 				translateX: 0,
 			},{
@@ -77,7 +44,7 @@ animando = false;
 			$("#menu-anim").velocity("stop").velocity({
 					translateX: -100 + "%",
 			},{
-				duration: 2000,
+				duration: 1500,
 				complete: function(){
 					animando = false;
 				}
@@ -111,7 +78,7 @@ var onTop = true;
 				$("#menu-anim").velocity("stop").velocity({
 					translateX: -100 + "%",
 				},{
-					duration: 2000,
+					duration: 750,
 					complete: function(){
 						animando = false;
 					}

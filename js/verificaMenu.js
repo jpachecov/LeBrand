@@ -3,7 +3,7 @@ var menu2 = false;
 
 $(document).ready(function(){
 
-	if($(window).width() < 600){
+	if($(window).width() < 705){
 		menu1 = false;
 		menu2 = true;
 		$('#menu').css('display', 'none');
@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	$(window).resize(function(){
 		console.log("width " + $(window).width());
-		if($(window).width() < 600){
+		if($(window).width() < 705){
 			if(!menu2){
 				menu1 = false;
 				menu2 = true;
@@ -22,7 +22,7 @@ $(document).ready(function(){
 			}
 		}
 
-		if($(window).width() > 600){
+		if($(window).width() > 705){
 			if(!menu1){
 				menu2 = false;
 				menu1 = true;
