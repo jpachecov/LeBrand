@@ -56,7 +56,7 @@ animando = false;
 
 var onTop = true;
 		$(document).scroll(function(){
-			console.log($(this).scrollTop());
+			//console.log($(this).scrollTop());
 			if($(this).scrollTop() == 0){
 				onTop = true;
 				$("#menu-anim").velocity("stop").velocity({
