@@ -35,37 +35,11 @@
   height: 100%;
 }
 
-.text:hover{
-  opacity: 1;
-}
-
-.text{
-  position: absolute;
-    top: 0;
-    left: 0%;
-    color:#f00;
-    background-color:rgba(0,0,0,0.9);
-    width: 100%;
-    height: 100%;
-    text-align: left;
-    z-index: 3;
-    opacity: 0;
-
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-
-    text-decoration: none;
-}
 
 .img-vertical{
   position: relative;
 }
 
-.text > p{
-  position: relative;
-}
 
 .fondoGris{
   background: #ccc;
