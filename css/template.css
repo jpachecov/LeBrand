@@ -9,6 +9,13 @@ font-weight: normal;
 src: url(fonts/gillsans.woff);
 }
 
+@font-face{
+  font-family: 'Marion';
+  font-style: normal;
+  font-weight: normal;
+
+  src: url(fonts/marion.woff);
+}
 /*
  * Body
  */
@@ -30,7 +37,7 @@ body{
   z-index: 5;
   font-family: "GillSans", sans-serif;
   font-weight: bold;
-} 
+}
 #logo{
 	display: inline-block;
     width: 75px;
@@ -87,7 +94,7 @@ body{
   width: 80%;
   height: 60px;
   position: fixed;
-  z-index: 5; 
+  z-index: 5;
   margin-left: 10%;
   font-family: "GillSans", sans-serif;
 }
@@ -216,6 +223,7 @@ body{
 }
 
 
+<<<<<<< HEAD
 .fadeIn{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -245,4 +253,26 @@ body{
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+=======
+@font-face{
+  font-family: 'titulo_proy';
+  src: url('fonts/marion.woff');
+}
+@font-face{
+  font-family: 'descrip_proy';
+  src: url('fonts/marion.woff');
+}
+
+
+.fuenteTitulo{
+  font-family: 'titulo_proy';
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.fuenteDescrip{
+  font-family: 'descrip_proy';
+  font-size: 15px;
+  color: #c1c0c0;
+>>>>>>> d91b3c0bb033baeb6263c08adca042b00a4a84b0
 }
