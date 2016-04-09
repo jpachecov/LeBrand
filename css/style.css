@@ -62,13 +62,9 @@
 .img-vertical{
   position: relative;
 }
-.text > a{
-  position: relative;
-  top: 40%;
-}
+
 .text > p{
   position: relative;
-  top: 50%;
 }
 
 @font-face{
@@ -83,12 +79,13 @@
 
 .fuenteTitulo{
   font-family: 'titulo_proy';
-  font-size: 2vw;
+  font-size: 2em;
   color: #ffffff;
 }
 
 .fuenteDescrip{
   font-family: 'descrip_proy';
+  font-size: 15px;
   color: #c1c0c0;
 }
 .fondoGris{
