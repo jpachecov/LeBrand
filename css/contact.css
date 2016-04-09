@@ -1,3 +1,7 @@
+body{
+	font-family: "GillSans", sans-serif;
+}
+
 .clear{
 	padding: 0 !important;
     margin: 0 !important;
@@ -8,8 +12,8 @@
 }
 .little-border-black{
 	border-top: 5px solid black;
-	display: block;
-	width: 50px;
+    display: block;
+    width: 35px;
 }
 .little-border-white{
 	border-top: 5px solid white;
@@ -19,9 +23,11 @@
 .data{
 	padding: 3% 3% 0px 3% !important;
 	box-sizing: border-box;
+	color: black;
 }
 .data h3{
 	margin-top: 10px;
+	font-weight: normal;
 }
 .black{
 	font-weight: bold;
@@ -31,18 +37,20 @@
 }
 .title{
 	text-align: right;
-	background: black none repeat scroll 0% 0%;
-	color: white;
-	box-sizing: border-box;
-	margin: 0px;
-	height: 80px;
-	line-height: 80px;
-	padding-right: 10%;
+    background: black none repeat scroll 0% 0%;
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    height: 80px;
+    line-height: 80px;
+    padding-right: 5%;
+    font-family: "Marion", sans-serif;
+    font-weight: bold;
 }
 .black-div{
 	background: black;
 	color: white;
-	padding: 6% 13% 0% 2% !important;
+	padding: 2% 13% 0% 2% !important;
 }
 .black-div p{
 	margin: 5% 0px;
@@ -88,50 +96,11 @@
 
 .form-contact > label{
 	margin-top: 5%;
+	font-weight: bold !important; 
 }
 
 #area_texto{
 	height: 130px;
-}
-
-@font-face{
-	font-family: 'fuente_1';
-	src: url('fonts/GillSans.ttc');
-}
-
-@font-face{
-	font-family: 'fuente_2';
-	src: url('fonts/Marion.ttc');
-}
-
-@font-face{
-	font-family: 'fuente_3';
-	src: url('fonts/MinionPro-Regular.otf');
-}
-
-@font-face{
-	font-family: 'fuente_4';
-	src: url('fonts/Marion.ttc');
-}
-@font-face{
-	font-family: 'fuente_5';
-	src: url('fonts/Marion.ttc');
-}
-
-.font_1{
-	font-family: 'fuente_1';
-}
-.font_2{
-	font-family: 'fuente_2';
-}
-.font_3{
-	font-family: 'fuente_3';
-}
-.font_4{
-	font-family: 'fuente_4';
-}
-.font_5{
-	font-family: 'fuente_5';
 }
 
 form-control{
@@ -145,17 +114,17 @@ button{
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	padding-left: 80px;
-  	padding-right: 80px;
-  	padding-bottom: 18px;
-  	padding-top: 18px;
+	padding: 10px 70px;
   	background-color: #2CA599;
   	border: none;
   	border-radius: 4px;
 	color:white;
-     cursor:pointer;
+    cursor:pointer;
+    margin-bottom: 30px;
 }
-
+textarea{
+	height: 95px !important;
+}
 
 #boton_form{
 	float: right;
