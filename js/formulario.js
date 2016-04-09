@@ -144,14 +144,14 @@ function desapareceError(error){
 
 
 function manda(parametros){
-         var ajax = new XMLHttpRequest();
-         ajax.open("POST", "php/miFormulario.php", true);
-         ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-          ajax.onreadystatechange = function(){
-             if(ajax.status == 200 && ajax.readyState == 4){
-                //alert(ajax.responseText);
-
-              }
-         }
-         ajax.send(parametros);
-       }
+   var ajax = new XMLHttpRequest();
+   ajax.open("POST", "php/miFormulario.php", true);
+   ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    ajax.onreadystatechange = function(){
+       if(ajax.status == 200 && ajax.readyState == 4){
+          respuesta = JSON.parse(ajax.response);
+          console.log(respuesta);
+        }
+   }
+   ajax.send(parametros);
+}
