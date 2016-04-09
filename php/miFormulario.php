@@ -1,5 +1,5 @@
 <?php
-$para      = 'caen@ciencias.unam.mx';
+$para      = 'contacto@lebrandcapital.com';
 $titulo    = '[Mensaje de pagina web]';
 $mensaje   = $_POST['mensaje'];
 $texto = str_replace("\n.", "\n..", $mensaje);
@@ -29,7 +29,7 @@ function validateUsername($nombre){
     }
 
     if(!preg_match("/^([A-Z|Ñ|a-z|ñ|Á|É|Í|Ó|Ú|á|é|í|ó|ú]+\s{0,1})+$/", $nombre)){
-        return false; 
+        return false;
     }
 
     return true;
@@ -55,10 +55,10 @@ function validateEmail($email){
     // SI escrito, NO VALIDO email
     if(!filter_var($email, FILTER_SANITIZE_EMAIL)){
         return false;
-    }   
+    }
 
     // SI rellenado, SI email valido
-    return true; 
+    return true;
 }
 
 ?>
