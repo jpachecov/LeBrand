@@ -48,6 +48,7 @@
 
 .text > p{
   position: relative;
+  width: 92%;
   top: 50%;
   left: 5%;
 }
