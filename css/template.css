@@ -34,9 +34,9 @@ body{
 	width: 80%;
 	height: 80px;
 	position: fixed;
-  z-index: 5;
   font-family: "GillSans", sans-serif;
   font-weight: bold;
+  z-index: 1000;
 }
 #logo{
 	display: inline-block;
@@ -45,10 +45,10 @@ body{
     background-image: url("../img/LOGO_000.png");
     background-size: 40px;
     background-color: black;
-    z-index: 21;
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
+  z-index: 100;
 }
 .menu{
 
@@ -59,8 +59,8 @@ body{
     padding: 0%;
     margin: 0%;
     vertical-align: top;
-    z-index: 20;
     position: relative;
+    z-index: 98;
 }
 #menu li a {
 	display: inline-block;
@@ -246,4 +246,15 @@ body{
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+#ocultaMenu{
+  display: block;
+  position: fixed;
+  width: 5%;
+  height: 80px;
+  top: 0%;
+  left: 0%;
+  background-color: gray;
+  z-index: 99;
 }
