@@ -307,7 +307,7 @@ img{
 
 .textCircles{
 	color: white;
-    font-size: 12px;
+    font-size: 15px;
     position: relative;
     width: auto;
     top: 6px;
@@ -337,8 +337,8 @@ img{
 
 #idea{
     position: relative;
-    width: 8%;
-    left: 47%;
+    width: 10%;
+    left: 46%;
     top: 8px;
    }
 
@@ -351,31 +351,31 @@ img{
 
 #linea3{
     position: absolute;
-    width: 14%;
-    left: 57%;
-    top: 36px;
+width: 14%;
+    left: 58%;
+    top: 38px;
 
 }
 
 #comportamiento{
     position: absolute;
-    width: 8%;
-    left: 24%;
-    top: 30%;
+    width: 10%;
+    left: 22%;
+    top: 26%;
 }
 
 
 #personalidad{
     position: absolute;
-    width: 8%;
-    left: 68%;
-    top: 30%;
+    width: 10%;
+    left: 70%;
+    top: 26%;
 }
 
 #linea4{
 position: absolute;
     width: 6%;
-    left: 27%;
+    left: 26%;
     top: 49%;
 
 }
@@ -383,29 +383,29 @@ position: absolute;
 #linea5{
 position: absolute;
     width: 6%;
-    left: 67%;
-    top: 49%;
+    left: 70%;
+    top: 47%;
 
 }
 
 #relaciones{
     position: absolute;
-    width: 8%;
-    left: 33%;
+    width: 10%;
+    left: 31%;
     top: 69%;
 }
 
 #valoresymetas{
     position: absolute;
-    width: 8%;
-    left: 59%;
-    top: 69%;
+    width: 10%;
+    left: 61%;
+    top: 68%;
 }
 
 #linea6{
      position: absolute;
     width: 15%;
-    left: 42.5%;
+    left: 43.5%;
     top: 79%;
 }   
 
@@ -664,14 +664,14 @@ position: absolute;
     width: 22%;
     left: 36.2%;
     position: absolute;
-    top: 21%;
+    top: 28%;
 }
 
 #linea24{
 position: relative;
     width: 0.3%;
     left: 47%;
-    top: 26%;
+    top: 33%;
 }
 
 #texto4{
@@ -688,12 +688,12 @@ position: relative;
 position: relative;
     width: 0.3%;
     left: 47%;
-    top: 31%;
+    top: 38%;
 }
 
 #experiencia{
     width: 5%;
     left: 44.8%;
     position: absolute;
-    top: 78%;
+    margin-top: 23px;
 }
