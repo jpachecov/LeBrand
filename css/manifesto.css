@@ -1,6 +1,52 @@
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('fonts/GillSans/GillSans.eot');
+    src: url('fonts/GillSans/GillSans.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GillSans/GillSans.woff') format('woff'),
+        url('fonts/GillSans/GillSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('fonts/gillsansBold/GillSans-Bold.eot');
+    src: url('fonts/gillsansBold/GillSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/gillsansBold/GillSans-Bold.woff') format('woff'),
+        url('fonts/gillsansBold/GillSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('fonts/gillsansLight/GillSans-Light.eot');
+    src: url('fonts/gillsansLight/GillSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/gillsansLight/GillSans-Light.woff') format('woff'),
+        url('fonts/gillsansLight/GillSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marion';
+    src: url('fonts/marionRegular/Marion-Regular.eot');
+    src: url('fonts/marionRegular/Marion-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/marionRegular/Marion-Regular.woff') format('woff'),
+        url('fonts/marionRegular/Marion-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 body{
 	/*padding: 2%;*/
+    font-family: 'Gill Sans';
 }
+
+
 h6{
 	margin-bottom: 5%;
 }
@@ -21,6 +67,15 @@ img{
 	width:100%;
 	height: 100%;
 }
+
+.tituloMarion{
+  font-size: 44px;
+  font-family: 'Marion';
+}
+
+
+
+
 .circle-li:before {
     content: "• ";
     color: #7B7D80;
@@ -158,7 +213,7 @@ img{
 }
 
 #aboutUno{
- 	width:30%;
+ 	width:26%;
  	position: absolute;
  	right: 0;
  	z-index: 1;
@@ -175,8 +230,16 @@ img{
 
 #aboutDos img {
  	position: relative;
- 	right: 0
+ 	right: 0;
+    margin-top:16%;
 
+}
+
+#aboutTres{
+    width: 29%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
 }
 
 .uno{
@@ -184,6 +247,7 @@ img{
 	z-index: 1;	
 	background:transparent;
 	top: 100px;
+    padding-bottom: 0;
 
 }
 
@@ -193,6 +257,7 @@ img{
 
 .subtitle{
 	font-size: 24px;
+    font-family: 'Gill Sans';
 }
 
 .text{
@@ -206,18 +271,32 @@ img{
 }
 
 .fondoGris{
-  background: #5F6266;
-  /*background-image: url(../img/nosotros/fondo.png);
- background-size: contain;
-    background-repeat: no-repeat;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
+  background: #636466;
+
 }
 
 .fondoBlanco{
   background: #fff;
+}
+
+.trianguloSuperior{
+    background-image: url(../img/nosotros/triangulo_1.png);
+    background-repeat: no-repeat;
+/*   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-size: 100% 100%;
+}
+
+.trianguloInferior{
+    background-image: url(../img/nosotros/triangulo_2.png);
+    background-repeat: no-repeat;
+/*   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-size: 100% 100%;
 }
 
 .cont{
@@ -602,7 +681,7 @@ position: relative;
     color: white;
     text-align: center;
     left: 39.5%;
-    top: 145px;
+   top: 118px;
 }
 
 #linea25{
