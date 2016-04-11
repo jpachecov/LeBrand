@@ -26,6 +26,9 @@ body{
   max-width: 2500px;
 }
 
+html{
+  background-color: #dcdcdc;
+}
 
 /*
  * Menú
@@ -255,6 +258,7 @@ body{
   height: 80px;
   top: 0%;
   left: 0%;
-  background-color: gray;
+  background-color: #dcdcdc;
   z-index: 99;
+
 }
