@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>LeBrand</title>
 
-	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="../css/template.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/projects.css">
+  <link rel="shortcut icon" type="image/png" href="../img/logo_menu.png"/>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="../css/template.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/projects.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-<body>
+<body onload="init_lang_work('elsa')">
     <div id='menu'>
         <div id='ocultaMenu'></div>
         <a id='logo' href="../index.html"></a><!--
@@ -90,8 +92,8 @@
       </div>
       <div class="last">
         <div>
-          <a onclick="translate_page('index', 'en')">ENGLISH</a>
-          <a onclick="translate_page('index', 'es')">ESPAÑOL</a>
+          <a onclick="translate_work('elsa', 'en')">ENGLISH</a>
+          <a onclick="translate_work('elsa', 'es')">ESPAÑOL</a>
         </div>
         <div class="info">
           <span class="f-ph2">
@@ -115,9 +117,11 @@
 <script src="../js/jquery-1.11.3.min.js"></script>
 <script src="../js/velocity.min.js"></script>
 <script src="../js/menuAnimado.js"></script>
-    <script src="../js/menuAnimado_2.js"></script>
-    <script src="../js/verificaMenu.js"></script>
+<script src="../js/menuAnimado_2.js"></script>
+<script src="../js/verificaMenu.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../js/bootstrap.min.js"></script>
+<script src="../js/translate.js"></script>
+<script src="../js/translate_work.js"></script>
 </html>

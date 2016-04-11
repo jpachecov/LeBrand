@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>LeBrand</title>
 
-	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="../css/template.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/projects.css">
+  <link rel="shortcut icon" type="image/png" href="../img/logo_menu.png"/>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="../css/template.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/projects.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-<body>
+<body onload="init_lang_work('ah_muzen')">
     <div id='menu'>
         <div id='ocultaMenu'></div>
         <a id='logo' href="../index.html"></a><!--
@@ -65,7 +67,7 @@
     	<h1>Project.</h1>
     	<h4>Ah Muzen Kab.</h4>
     	<p>
-    		dentity + Branding for a Honey Bee’s company in the state of Quintana Roo, Mexico. In 2014 the Honey Bee company Ah Muzen Kab expressed a desire to have a solid and structured identity and brand for the company’s objectives.
+    		Identity + Branding for a Honey Bee’s company in the state of Quintana Roo, Mexico. In 2014 the Honey Bee company Ah Muzen Kab expressed a desire to have a solid and structured identity and brand for the company’s objectives.
                 <br><br>
          Ah Muzen Kab reached out to <strong> Le Brand </strong> for the next challenge in the process of their development: configuring the identity and branding for the unique and organic honey bee of the Mayan jungles from Quintana Roo that would be commercialized and exported to different countries all around the world such as Japan, Germany, and the United States. <strong> Le Brand </strong> used marketing research to create a unique identity for the company and to develop branding that met the quality required to be competitive in international markets, without compromising the regional aspects of the project and the company. <strong> Le Brand </strong> helped Ah Muzen Kab foster and fortify an identity that reflects the culture of the Mayan people and their traditional beekeeping processes through a carefully designed illustration and well-selected typography.
             <br><br>
@@ -98,8 +100,8 @@
       </div>
       <div class="last">
         <div>
-          <a onclick="translate_page('index', 'en')">ENGLISH</a>
-          <a onclick="translate_page('index', 'es')">ESPAÑOL</a>
+          <a onclick="translate_work('ah_muzen', 'en')">ENGLISH</a>
+          <a onclick="translate_work('ah_muzen', 'es')">ESPAÑOL</a>
         </div>
         <div class="info">
           <span class="f-ph2">
@@ -123,9 +125,11 @@
 <script src="../js/jquery-1.11.3.min.js"></script>
 <script src="../js/velocity.min.js"></script>
 <script src="../js/menuAnimado.js"></script>
-    <script src="../js/menuAnimado_2.js"></script>
-    <script src="../js/verificaMenu.js"></script>
+<script src="../js/menuAnimado_2.js"></script>
+<script src="../js/verificaMenu.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../js/bootstrap.min.js"></script>
+<script src="../js/translate.js"></script>
+<script src="../js/translate_work.js"></script>
 </html>
