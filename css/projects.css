@@ -2,7 +2,7 @@
  * Estilos generales
  */
  .pg-1{
- 	height: 35em;
+ 	height: 29em;
  }
  .pg-1 img{
  	display: block;
@@ -214,14 +214,14 @@
   * Ah_Musen_Kab
   */
   .pg-2-ah_Musen{
-    margin-top: -15%;
     color: white;
     padding-bottom: 10%;
-    background-position: 0% 60%;
+    background-position: 0% 84%;
     background-image: url(../img/work/ah_Musen/background_000-1.png);
+    background-origin: content-box;
   }
   .pg-2-ah_Musen h1{
-    margin-top: 50%;
+    margin-top: 10%;
   }
 
   .ah_Musen-middle img{
@@ -230,7 +230,9 @@
   margin-right: auto;
   margin-top: -25%;
   }
-
+.ah_Musen-middle{
+  margin-top: -52%;
+}
 /*
   * Elsa_Elena
   */
