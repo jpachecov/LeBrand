@@ -68,10 +68,10 @@
     			<img src="img/nosotros/01_000.png">
     		</div>	
     		<div class="row ">
-    			<h1 class="center">Le Brand</h1>
+    			<h1 class="center" > <img src="img/le_brand_title.png" class="title-png" style="background-color:black "></h1>
     		</div>
     		<div class="row padding-estandar">
-    			<div class="center title">Hello.</div>
+    			<div class="center title tituloMarion">Hello.</div>
     			<div class="center upper subtitle">This our manifesto</div>
     		</div>
     		<div class="row padding-estandar text">
@@ -87,17 +87,22 @@
     		</div>
 
        	</div>	
+
+        <div class="container-fluid nopad trianguloSuperior">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-8">
+            <div id="aboutDos">
+              <img src="img/nosotros/02_000.png">
+            </div>
+           </div>
+          </div>
+        </div>
+
        	<div class="container-fluid nopad fondoGris">
-    		  <div class="row">
-    		  	<div class="col-md-4 col-md-offset-8">
-	    		  <div id="aboutDos">
-	    		  	<img src="img/nosotros/02_000.png">
-	    		  </div>
-    		   </div>
-    		  </div>
+    		  
     		  <div class="row white">
     		  	<div class="row ">
-    				<h1 class="center title">Brand System</h1>
+    				<h1 class="center title tituloMarion">Brand System</h1>
     				<h6 class="center upper subtitle">Build inside to create outside.</h6>
     			</div>  			
     		  </div>
@@ -229,21 +234,18 @@
           </div>
 
           <div class="row">
-            <div class="col-md-12" style="height: 520px;">
+            <div class="col-md-12" style="height: 345px;">
                 <div id="texto3">Branding que será evaluado por la audiencia.</div>
                 <div id="linea23"><img src="img/nosotros/linea-3_001.png"></div>
                 <div id="bran"><img src="img/nosotros/simbolo-19_000.png"><p class="textCircles">BRANDING</p></div> 
                 <div id="linea24"><img src="img/nosotros/linea-3_002.png"></div>
                 <div id="texto4">Finalmente se convierte en <span class="bold">Diseño de Experiencia</span></div>
-                <div id="linea25"><img src="img/nosotros/linea-3_003.png"></div>
-                <div id="experiencia"><img src="img/nosotros/simbolo-20_000.png"><p class="textCircles">EXPERIENCIA</p></div> 
+              
             </div>
           </div>
-           <div class="row">
-            <div class="col-md-12" style="height: 220px;">
-                
-            </div>
-          </div>
+          
+
+         
 
 
 
@@ -252,21 +254,28 @@
     		</div>
     </div>
    
+ <div class="container-fluid nopad trianguloInferior">
+           <div class="row" style="height: 345px;">
+            <div class="col-md-12">
+                 <div id="linea25"><img src="img/nosotros/linea-3_003.png"></div>
+                <div id="experiencia"><img src="img/nosotros/simbolo-20_000.png"><p class="textCircles">EXPERIENCIA</p></div>
 
+                <div id="aboutTres">
+                   <img src="img/nosotros/03_000.png">
+                 </div>
+                    
+                      
+            </div>
+           </div>
+          </div>
 
 	<div class="container-fluid padding-estandar">
-		<div class="row">
-    		<div class="col-md-4 col-md-offset-8">
-	    		 <div id="aboutDos">
-	    		  	<img src="img/nosotros/03_000.png">
-	        	</div>
-    		</div>
-    	</div>
-		<div class="row padding-estandar">
+		
+		<div class="row ">
 			<h1 class="center title">The Road to Victory</h1>
 			<h6 class="center upper subtitle">Is paved through strategies.</h6>
 		</div>
-		<div class="row padding-estandar text">
+		<div class="row  text">
 			<p class="p-description">
 				<span class="bold">LeBrand</span>, offers a full range of consultancy and design services, from brand development to specific design work for premium brands: identity, branding, editorial, web design, and visual communication.
 			</p>
@@ -354,6 +363,65 @@
 <script src="js/menuAnimado.js"></script>
 <script src="js/menuAnimado_2.js"></script>
 <script src="js/verificaMenu.js"></script>
+<script src="js/greensock/TweenMax.min.js"></script>
+<script src="js/jquery.superscrollorama.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      var controller = $.superscrollorama();
+      // individual element tween examples
+    
+      controller.addTween('#linea2', TweenMax.from( $('#linea2'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut}));
+      controller.addTween('#linea3', TweenMax.from( $('#linea3'), .25, {css:{left:'1000px'}, ease:Quad.easeInOut}));
+      controller.addTween('#idea', TweenMax.from( $('#idea'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#comportamiento', TweenMax.from( $('#comportamiento'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#personalidad', TweenMax.from( $('#personalidad'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea4', TweenMax.from( $('#linea4'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut}));
+      controller.addTween('#linea5', TweenMax.from( $('#linea5'), .25, {css:{left:'1000px'}, ease:Quad.easeInOut}));
+       controller.addTween('#relaciones', TweenMax.from( $('#relaciones'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#valoresymetas', TweenMax.from( $('#valoresymetas'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea6', TweenMax.from( $('#linea6'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#dna', TweenMax.from( $('#dna'), .5, {css:{opacity: 0}}));
+      controller.addTween('#linea7', TweenMax.from( $('#linea7'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut}));
+      controller.addTween('#identidad', TweenMax.from( $('#identidad'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea8', TweenMax.from( $('#linea8'), .5, {css:{opacity: 0}}));
+      controller.addTween('#texto1', TweenMax.from( $('#texto1'), .5, {css:{opacity: 0}}));
+      controller.addTween('#linea9', TweenMax.from( $('#linea9'), .5, {css:{opacity: 0}}));
+      controller.addTween('#imagen', TweenMax.from( $('#imagen'), .5, {css:{opacity: 0}}));
+      controller.addTween('#linea10', TweenMax.from( $('#linea10'), .5, {css:{opacity: 0}}));
+      controller.addTween('#texto2', TweenMax.from( $('#texto2'), .5, {css:{opacity: 0}}));
+      controller.addTween('#linea11', TweenMax.from( $('#linea11'), .5, {css:{opacity: 0}}));
+      controller.addTween('#marca', TweenMax.from( $('#marca'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea12', TweenMax.from( $('#linea12'), .5, {css:{opacity: 0}}));
+      controller.addTween('#tono', TweenMax.from( $('#tono'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea13', TweenMax.from( $('#linea13'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#linea14', TweenMax.from( $('#linea14'), .25, {css:{opacity:0, left:'2000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#diseno', TweenMax.from( $('#diseno'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#logotipo', TweenMax.from( $('#logotipo'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea15', TweenMax.from( $('#linea15'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#linea16', TweenMax.from( $('#linea16'), .25, {css:{opacity:0, left:'2000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#tipografia', TweenMax.from( $('#tipografia'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#recursos', TweenMax.from( $('#recursos'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea17', TweenMax.from( $('#linea17'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#linea18', TweenMax.from( $('#linea18'), .25, {css:{opacity:0, left:'2000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#estilo', TweenMax.from( $('#estilo'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#paleta', TweenMax.from( $('#paleta'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea19', TweenMax.from( $('#linea19'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#linea20', TweenMax.from( $('#linea20'), .25, {css:{opacity:0, left:'2000px'}, ease:Quad.easeInOut},2000));
+      controller.addTween('#foto', TweenMax.from( $('#foto'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#icono', TweenMax.from( $('#icono'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea21', TweenMax.from( $('#linea21'), .25, {css:{opacity:0, rotation: 720}, ease:Quad.easeOut},2000));
+      controller.addTween('#linea22', TweenMax.from( $('#linea22'), .5, {css:{opacity: 0}}));
+      controller.addTween('#texto3', TweenMax.from( $('#texto3'), .5, {css:{opacity: 0}}));
+      controller.addTween('#linea23', TweenMax.from( $('#linea23'), .5, {css:{opacity: 0}}));
+      controller.addTween('#bran', TweenMax.from( $('#bran'), .5, {css:{opacity: 0}}));
+      controller.addTween('#linea24', TweenMax.from( $('#linea24'), .5, {css:{opacity: 0}}));
+      controller.addTween('#texto4', TweenMax.from( $('#texto4'), .5, {css:{opacity: 0}}));
+      controller.addTween('#linea25', TweenMax.from( $('#linea25'), .5, {css:{opacity: 0}}));
+      controller.addTween('#experiencia', TweenMax.from( $('#experiencia'), .5, {css:{opacity: 0}}));
+
+    });
+</script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
