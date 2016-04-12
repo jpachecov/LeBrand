@@ -25,7 +25,7 @@ src: url(fonts/gillsans.woff);
 body{
   display: block;
   margin: 0px auto;
-  max-width: 1300px;
+  max-width: 1175px;
   overflow-x: hidden;
 }
 
