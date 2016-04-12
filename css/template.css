@@ -228,6 +228,12 @@ html{
   font-size: 12px;
 }
 
+.info{
+
+     background: #000;
+   opacity: .50;
+}
+
 
 .fadeIn{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
