@@ -9,8 +9,12 @@
 	margin: 10em auto 0px;
  }
  .pg-2{
+  font-family: "GillSans", sans-serif;
  	background-repeat: no-repeat;
  	background-size: cover;
+ }
+ .pg-2 h1{
+  font-family: "Marion", sans-serif;
  }
  .pg-2 h1, .pg-2  h4{
  	text-align: center;
