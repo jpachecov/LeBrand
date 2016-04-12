@@ -256,12 +256,12 @@ img{
 }
 
 .subtitle{
-	font-size: 24px;
+	font-size: 22px;
     font-family: 'Gill Sans';
 }
 
 .text{
-	font-size: 19px;
+	font-size: 21px;
 }
 
 #second{
@@ -418,9 +418,9 @@ position: absolute;
 }   
 
 #identidad{
-    position: absolute;
-    width: 10%;
-    left: 44%;
+position: absolute;
+    width: 13%;
+    left: 43%;
     top: 134%;
 }
 
@@ -548,14 +548,14 @@ width: 8%;
 #linea15{
     position: absolute;
     width: 5%;
-    left: 15%;
+    left: 14%;
     top: 24%;
 }
 
 #linea16{
 position: absolute;
     width: 4%;
-    left: 67%;
+    left: 68%;
     top: 24%;
 }
 
@@ -577,36 +577,36 @@ position: absolute;
 #linea17{
     position: absolute;
     width: 2%;
-    left: 13%;
+    left: 12%;
     top: 48%;
 }
 
 #linea18{
     position: absolute;
     width: 2%;
-    left: 71%;
-    top: 48%;
+    left: 72%;
+    top: 50%;
 }
 
 #estilo{
 width: 8%;
-    left: 14%;
+    left: 12%;
     position: absolute;
-    top: 410px;
+    top: 422px;
 }
 
 #paleta{
     width: 8%;
-    left: 64%;
+    left: 65%;
     position: absolute;
-    top: 403px;
+    top: 414px;
 }
 
 #linea19{
-position: absolute;
+    position: absolute;
     width: 7%;
-    left: 22%;
-    top: 68%;
+    left: 21%;
+    top: 70%;
 }
 
 #linea20{
@@ -654,6 +654,8 @@ position: absolute;
     top: -10px;
 }
 
+
+
 #linea23{
     position: relative;
     width: 0.3%;
@@ -682,6 +684,16 @@ position: relative;
     text-align: center;
     left: 39.5%;
    top: 118px;
+}
+
+#texto5{
+position: absolute;
+    top: 37%;
+    text-align: center;
+    color: white;
+    width: 33%;
+    font-size: 20px;
+    left: 27%
 }
 
 #linea25{
