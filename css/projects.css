@@ -2,15 +2,19 @@
  * Estilos generales
  */
  .pg-1{
- 	height: 35em;
+ 	height: 29em;
  }
  .pg-1 img{
  	display: block;
 	margin: 10em auto 0px;
  }
  .pg-2{
+  font-family: "GillSans", sans-serif;
  	background-repeat: no-repeat;
  	background-size: cover;
+ }
+ .pg-2 h1{
+  font-family: "Marion", sans-serif;
  }
  .pg-2 h1, .pg-2  h4{
  	text-align: center;
@@ -210,14 +214,14 @@
   * Ah_Musen_Kab
   */
   .pg-2-ah_Musen{
-    margin-top: -15%;
     color: white;
     padding-bottom: 10%;
-    background-position: 0% 60%;
+    background-position: 0% 84%;
     background-image: url(../img/work/ah_Musen/background_000-1.png);
+    background-origin: content-box;
   }
   .pg-2-ah_Musen h1{
-    margin-top: 50%;
+    margin-top: 10%;
   }
 
   .ah_Musen-middle img{
@@ -226,7 +230,9 @@
   margin-right: auto;
   margin-top: -25%;
   }
-
+.ah_Musen-middle{
+  margin-top: -52%;
+}
 /*
   * Elsa_Elena
   */
@@ -372,3 +378,22 @@
   margin-left: auto;
   margin-top: -45%;
   }
+
+.letstart_button{
+  position: absolute;
+  display: block;
+  width: 40%;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border: solid 1px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.letstart_button:hover{
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

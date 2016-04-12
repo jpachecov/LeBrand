@@ -25,8 +25,8 @@ src: url(fonts/gillsans.woff);
 body{
   display: block;
   margin: 0px auto;
-  width: 95%;
-  max-width: 2500px;
+  max-width: 1175px;
+  overflow-x: hidden;
 }
 
 html{
@@ -205,16 +205,18 @@ html{
 }
 .footer .last{
   font-size: 15px;
-  float: left;
   background: black;
-  width: 100%;
+  width: 80%;
   padding-bottom: 1%;
+  margin: auto;
 }
 .footer .last a{
   text-decoration: none;
   color: white;
-  padding: 0% 5%;
+  padding: 0% 2%;
   cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
 }
 .footer .last div{
   width: 33.3%;
@@ -222,10 +224,16 @@ html{
 }
 .footer .last .info span{
   padding: 0% 3%;
-  font-size: 15px;
+  font-size: 11px;
 }
 .footer .f-ph5{
   font-size: 12px;
+}
+
+.info{
+
+     background: #000;
+   opacity: .50;
 }
 
 
