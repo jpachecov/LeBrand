@@ -104,7 +104,7 @@
     margin-top: 11%;
   }
   .pg-2-sun h1{
-  	margin-top: 30%;
+  	margin-top: 20%;
   }
   .sun-middle img{
   	display: block;
@@ -177,7 +177,7 @@
     margin-top: 14%;
   }
   .pg-2-chapital h1{
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
   .chapital-middle img{
@@ -220,7 +220,7 @@
     margin-top: 2%;
   }
   .pg-2-ah_Musen h1{
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
   .ah_Musen-middle img{
@@ -242,6 +242,7 @@
     background-image: url(../img/work/elsa_Elena/background_000.png);
     text-align: center;
     margin-top: 8%;
+    height: 101em;
   }
   .pg-2-elsa_Elena h1{
     margin-top: 30%;
