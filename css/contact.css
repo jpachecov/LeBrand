@@ -139,7 +139,8 @@ textarea{
 	border-radius: 0%;
 	border: solid 1px;
 	background-color: white;
-	color: black
+	color: black;
+	opacity: 0.8;
 }
 
 #color_text{
