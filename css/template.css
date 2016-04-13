@@ -209,6 +209,12 @@ html{
   text-decoration: none;
   color: white;
 }
+
+.icon a img{
+   width: 21px;
+   height: 22px;
+}
+
 .footer .last{
   font-size: 15px;
   background: black;
