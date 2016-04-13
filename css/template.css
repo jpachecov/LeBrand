@@ -16,6 +16,12 @@ src: url(fonts/gillsans.woff);
 
   src: url(fonts/marion.woff);
 }
+
+@font-face{
+  font-family: 'Minion';
+  src: url(fonts/MinionPro-Regular.otf);
+}
+
 /*
  * Body
  */
