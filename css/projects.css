@@ -55,10 +55,11 @@
   .pg-2-agroamericana{
   	color: white;
   	background-position: 0% 0%;
-	background-image: url(../img/work/agroamericana/background_000-1.png);
+    background-image: url(../img/work/agroamericana/background_000-1.png);
+    margin-top: 13%;
   }
   .pg-2-agroamericana h1{
- 	margin-top: 40%;
+ 	margin-top: 20%;
  }
   .pg-2-agroamericana img{
   	float: right;
@@ -70,7 +71,7 @@
  .pg-2-fighter{
  	padding: 0px !important;
  	color: black;
- 	margin-top: -5%;
+ 	margin-top: 11%;
  	background-position: 0% 0%;
  	background-image: url(../img/work/fighter_town/background_000-1.png);
  }
@@ -100,6 +101,7 @@
   	padding-bottom: 10%;
   	background-position: 0% 0%;
   	background-image: url(../img/work/sun_slice/background_000-1.png);
+    margin-top: 11%;
   }
   .pg-2-sun h1{
   	margin-top: 30%;
@@ -115,13 +117,13 @@
  * JLTC
  */
  .pg-2-jltc{
- 	margin-top: -35%;
    	color: white;
    	background-position: 0% 0%;
    	background-image: url(../img/work/jltc/backgroud_000-1.png);
+    margin-top: 6%;
  }
  .pg-2-jltc h1{
- 	margin-top: 55%;
+ 	margin-top: 20%;
  }
  .pg-2-jltc .icon{
  	margin-top: -20%;
@@ -172,6 +174,7 @@
     padding-bottom: 10%;
     background-position: 0% 0%;
     background-image: url(../img/work/grupo_Chapital/background_000-1.png);
+    margin-top: 14%;
   }
   .pg-2-chapital h1{
     margin-top: 30%;
@@ -192,6 +195,7 @@
     padding-bottom: 10%;
     background-position: 0% 0%;
     background-image: url(../img/work/tulum/background_000-1.png);
+    margin-top: 5%;
   }
   .pg-2-tulum h1{
     margin-top: 22%;
@@ -213,7 +217,7 @@
     padding-bottom: 10%;
     background-position: 0% 0%;
     background-image: url(../img/work/ah_Musen/background_000-1.png);
-    background-origin: content-box;
+    margin-top: 2%;
   }
   .pg-2-ah_Musen h1{
     margin-top: 10%;
@@ -237,6 +241,7 @@
     background-position: 0% 0%;
     background-image: url(../img/work/elsa_Elena/background_000.png);
     text-align: center;
+    margin-top: 8%;
   }
   .pg-2-elsa_Elena h1{
     margin-top: 30%;
@@ -259,6 +264,7 @@
     background-position: 0% 0%;
     background-image: url(../img/work/centennial_Organics/background_000-1.png);
     text-align: center;
+    margin-top: 10%;
   }
   .pg-2-centennial_Organics h1{
     margin-top: 20%;
@@ -280,6 +286,7 @@
     background-position: 0% 0%;
     background-image: url(../img/work/agora/background_000-1.png);
     text-align: center;
+    margin-top: 14%;
   }
   .pg-2-agora h1{
     margin-top: 20%;
@@ -300,6 +307,7 @@
     background-position: 0% 0%;
     background-image: url(../img/work/marmoline/background_000-1.png);
     text-align: center;
+    margin-top: 10%;
   }
   .pg-2-marmoline h1{
     margin-top: 20%;
@@ -316,6 +324,9 @@
   *  aimalaion
    */
 
+.pg-aimalaion{
+  margin-top: 11%;
+}
   .pg-2-aimalaion h1{
     margin-top: 20%;
   }
@@ -336,6 +347,7 @@
     background-position: 0% 0%;
     background-image: url(../img/work/cmx/background_000-1.png);
     text-align: center;
+    margin-top: 12%;
   }
   .pg-2-cmx h1{
     margin-top: 20%;
@@ -357,6 +369,7 @@
     background-position: 0% 0%;
     background-image: url(../img/work/vintage/background_000-1.png);
     text-align: center;
+    margin-top: 11%;
   }
   .pg-2-vintage h1{
     margin-top: 20%;

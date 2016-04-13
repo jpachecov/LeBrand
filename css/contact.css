@@ -96,7 +96,7 @@ body{
 
 .form-contact > label{
 	margin-top: 5%;
-	font-weight: bold !important; 
+	font-weight: bold !important;
 }
 
 #area_texto{
@@ -115,12 +115,12 @@ button{
   	margin-left: auto;
   	margin-right: auto;
 	padding: 10px 70px;
-  	background-color: #2CA599;
+  	background-color: black;
   	border: none;
   	border-radius: 4px;
 	color:white;
-    cursor:pointer;
-    margin-bottom: 30px;
+  	cursor:pointer;
+    	margin-bottom: 30px;
 }
 textarea{
 	height: 95px !important;
@@ -130,4 +130,10 @@ textarea{
 	float: right;
 	font-size: 20px;
 	border-radius: 0%;
+}
+
+
+#color_text{
+
+	color: black;
 }
