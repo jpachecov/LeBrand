@@ -130,8 +130,17 @@ textarea{
 	float: right;
 	font-size: 20px;
 	border-radius: 0%;
+	border: solid 1px;
 }
 
+#boton_form:hover{
+	float: right;
+	font-size: 20px;
+	border-radius: 0%;
+	border: solid 1px;
+	background-color: white;
+	color: black
+}
 
 #color_text{
 
