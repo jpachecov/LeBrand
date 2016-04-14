@@ -22,6 +22,12 @@ src: url(fonts/gillsans.woff);
   src: url(fonts/MinionPro-Regular.otf);
 }
 
+@font-face{
+  font-family: 'MarionR';
+  src: url(fonts/marionRegular/Marion-Regular.woff);
+}
+
+
 /*
  * Body
  */
