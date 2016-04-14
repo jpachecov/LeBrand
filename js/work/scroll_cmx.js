@@ -1,9 +1,9 @@
-var hecho = false;
-$.Velocity.hook($('#anim_1'), "translateX", '-100%');
-$.Velocity.hook($('#anim_1'), "opacity", '0');
-$.Velocity.hook($('#anim_2'), "translateX", '200%');
-$.Velocity.hook($('#anim_3'), "translateX", '-100%');
 $(document).ready(function(){	
+	var hecho = false;
+	$.Velocity.hook($('#anim_1'), "translateX", '-100%');
+	$.Velocity.hook($('#anim_1'), "opacity", '0');
+	$.Velocity.hook($('#anim_2'), "translateX", '200%');
+	$.Velocity.hook($('#anim_3'), "translateX", '-100%');
 	var proy = $('.titulo').offset().top;
 	$(window).scroll(function(){
 		if($(window).scrollTop() > proy -100 && !hecho){
