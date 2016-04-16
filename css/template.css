@@ -49,12 +49,13 @@ html{
  * Menú
  */
 #menu{
-	width: 80%;
+	width: 50%;
 	height: 80px;
 	position: fixed;
   font-family: "GillSans", sans-serif;
   font-weight: bold;
   z-index: 1000;
+  overflow: hidden;
 }
 #logo{
 	display: inline-block;
@@ -280,14 +281,3 @@ html{
     to   { opacity: 1; }
 }
 
-#ocultaMenu{
-  display: block;
-  position: fixed;
-  width: 5%;
-  height: 80px;
-  top: 0%;
-  left: 0%;
-  background-color: #dcdcdc;
-  z-index: 99;
-
-}
