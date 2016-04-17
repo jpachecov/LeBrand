@@ -36,8 +36,8 @@
 .contenido p{
 	font-family: "Marion", sans-serif;
 	font-size: 180%;
-	font-weight: bold;
 }
+
 .fondo{
 	position: absolute;
 	top: 0%;
@@ -51,4 +51,7 @@
 }
 .active{
 	cursor: pointer;
+}
+.active :hover{
+	opacity: 1;	
 }
