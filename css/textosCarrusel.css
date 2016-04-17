@@ -34,8 +34,9 @@
 	margin-left: 17%;
 }
 .contenido p{
-	font-family: "Marion";
+	font-family: "Marion", sans-serif;
 	font-size: 180%;
+	font-weight: bold;
 }
 .fondo{
 	position: absolute;

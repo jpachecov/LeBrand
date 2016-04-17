@@ -4,8 +4,8 @@ var items = ['item_1', 'item_2', 'item_3', 'item_4'];
 var current;
 
 $.Velocity.hook($('.fondo'), "opacity", '0');
-$.Velocity.hook($('.tag'), "translateX", "100px");
-$.Velocity.hook($('.contenido'), "translateX", "100px");
+$.Velocity.hook($('.tag'), "translateX", "-20px");
+$.Velocity.hook($('.contenido'), "translateX", "20px");
 
 
 $(document).ready(function(){
@@ -44,13 +44,13 @@ function doAnimation(e){
 				opacity: 1,
 				translateX: 0 + 'px',
 			},{
-				duration: 1000,
+				duration: 500,
 			});
 			$('#' + e + ' .contenido').velocity({
 				opacity: 1,
 				translateX: 0 + 'px',
 			},{
-				duration: 1000,
+				duration: 500,
 				complete: function(){
 					animating = false;
 				}
@@ -58,8 +58,6 @@ function doAnimation(e){
 
 		}
 	});
-
-
 }
 
 /*
@@ -67,8 +65,8 @@ function doAnimation(e){
 */
 function restore(e){
 	$.Velocity.hook($('.fondo'), "opacity", '0');
-	$.Velocity.hook($('.tag'), "translateX", "100px");
-	$.Velocity.hook($('.contenido'), "translateX", "100px");
+	$.Velocity.hook($('.tag'), "translateX", "-20px");
+	$.Velocity.hook($('.contenido'), "translateX", "20px");
 	$.Velocity.hook($('.tag'), "opacity", "0");
 	$.Velocity.hook($('.contenido'), 'opacity', '0');	
 }
