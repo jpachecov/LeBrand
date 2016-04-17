@@ -1,11 +1,10 @@
 
 //$.Velocity.hook($('#anim_3'), "translateX", '-100%');
 $(document).ready(function(){	
-	console.log(window.location);
-var hecho = false;
-$.Velocity.hook($('#anim_1'), "translateX", '-100%');
-$.Velocity.hook($('#anim_1'), "opacity", '0');
-$.Velocity.hook($('#anim_2'), "translateX", '200%');
+	var hecho = false;
+	$.Velocity.hook($('#anim_1'), "translateX", '-100%');
+	$.Velocity.hook($('#anim_1'), "opacity", '0');
+	$.Velocity.hook($('#anim_2'), "translateX", '200%');
 	var proy = $('.titulo').offset().top;
 	$(window).scroll(function(){
 		if($(window).scrollTop() > proy-25 && !hecho){
