@@ -400,6 +400,11 @@
   font-size: 25px;
 }
 
+.letstart_button span{
+  display: block;
+  padding: 1%;
+}
+
 .letstart_button:hover{
   color: white;
   background-color: black;
