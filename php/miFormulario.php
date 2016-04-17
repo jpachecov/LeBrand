@@ -5,7 +5,7 @@ $mensaje   = $_POST['mensaje'];
 $texto = str_replace("\n.", "\n..", $mensaje);
 $nombre =  $_POST['nombre'];
 $correo = $_POST['correo'];
-$mensaje_completo = "Nombre de la persona que se contacto es : " . $nombre . " y su   correo es : ". $correo;
+$mensaje_completo = "Nombre de la persona que se contacto es : " . $nombre . " y su   correo es : ". $correo. "el mensaje del cliente es :".$texto;
 $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 

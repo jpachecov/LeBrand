@@ -8,7 +8,7 @@ var transale = {
 		'm-ph2':{
 			'en' : 'ABOUT US',
 			'es' : 'NOSOTROS'
-		}, 
+		},
 		'm-ph3':{
 			'en' : 'WORK',
 			'es' : 'TRABAJO'
@@ -23,7 +23,7 @@ var transale = {
 		'ph1':{
 			'en' : "We'd love to hear from you.",
 			'es' : 'Queremos saber de ti.'
-		}, 
+		},
 		'ph2':{
 			'en' : 'Studios.',
 			'es' : 'Estudios.'
@@ -97,11 +97,11 @@ var transale = {
 		}
 	} ,
 
-	'home':{
+	'index':{
 		'ph1':{
 			'en' : "New plaza boutique located at Tuxtla Gutierrez, Chiapas.",
-			'es' : 'Agora: Nueva  plaza boutique en la ciudad de Tuxtla Gutiérrez, Chiapas.'
-		}, 
+			'es' : ' Nueva  plaza boutique en la ciudad de Tuxtla Gutiérrez, Chiapas.'
+		},
 		'ph2':{
 			'en' : 'Honey Bee’s company in the state of Quintana Roo, Mexico.',
 			'es' : 'Sociedad cooperativa apicultora DzAh Muzen Kabdz del Estado de Quintana Roo.'
@@ -357,7 +357,7 @@ var transale = {
 			'en':'When the <span class="bold">identity</span> and image are well established , a powerful and visually consistent <span class="bold">Branding</span> is the result',
 			'es':'Cuando la <span class="bold">identidad</span> y la imagen estan bien establecidas, un poderoso y visualmente coherente <span class="bold">Branding</span> es el resultado'
 		}
-		
+
 
 	}
 }
@@ -396,6 +396,11 @@ function translate_page(page, lang){
 	for(var key in transale['aboutUs']){
 		$('.'+key).html(transale['aboutUs'][key][lang])
 	}
+
+	for(var key in transale['index']){
+		$('.'+key).html(transale['index'][key][lang])
+	}
+
 
 
 }
