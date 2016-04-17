@@ -15,9 +15,9 @@
 	opacity: 0;
 	z-index: 3;
 	color: white;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-top: 20%;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	text-align: center;
 	font-size: 120%;
 }
@@ -31,7 +31,7 @@
 	opacity: 0;
 	z-index: 3;
 	color: white;
-	margin-left: 10%;
+	margin-left: 17%;
 }
 .contenido p{
 	font-family: "Marion";
