@@ -412,3 +412,28 @@ function init_lang(page){
     	translate_page(page, 'es');
     }
 }
+
+$(document).ready(function(){
+	$('#eng_len').addClass('len_selected');
+	$('#eng_len').click(function(){
+		if($(this).hasClass('len_selected')){
+			return;
+		}
+		$(this).addClass('len_selected');
+		$(this).css('color','#888885');
+		$('#es_len').removeClass('len_selected');
+		$('#es_len').css('color','white');
+	});
+
+	$('#es_len').click(function(){
+		if($(this).hasClass('len_selected')){
+			return;
+		}
+		$(this).addClass('len_selected');
+		$(this).css('color','#888885');
+		$('#eng_len').removeClass('len_selected');
+		$('#eng_len').css('color','white');	
+	});
+	
+});
+

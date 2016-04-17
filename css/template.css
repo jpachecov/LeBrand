@@ -231,7 +231,6 @@ html{
 }
 .footer .last a{
   text-decoration: none;
-  color: white;
   padding: 0% 2%;
   cursor: pointer;
   font-size: 11px;
@@ -247,6 +246,14 @@ html{
 }
 .footer .f-ph5{
   font-size: 12px;
+}
+#eng_len{
+ color: gray;
+}
+#es_len{
+  color: white;
+}
+.len_selected{
 }
 
 .info{

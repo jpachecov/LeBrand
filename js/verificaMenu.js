@@ -2,7 +2,7 @@ var menu1 = true;
 var menu2 = false;
 
 $(document).ready(function(){
-
+	
 	if($(window).width() < 705){
 		menu1 = false;
 		menu2 = true;
