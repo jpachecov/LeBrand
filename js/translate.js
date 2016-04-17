@@ -20,55 +20,55 @@ var transale = {
 	},
 
 	'contact':{
-		'ph1':{
+		'cph1':{
 			'en' : "We'd love to hear from you.",
 			'es' : 'Queremos saber de ti.'
 		},
-		'ph2':{
+		'cph2':{
 			'en' : 'Studios.',
 			'es' : 'Estudios.'
 		},
-		'ph3':{
+		'cph3':{
 			'en' : 'Italy',
 			'es' : 'Italia'
 		},
-		'ph4':{
+		'cph4':{
 			'en' : '<span class="black">Alexander Tadlock - </span> General Manager',
 			'es' : '<span class="black">Alexander Tadlock - </span> Gerente General'
 		},
-		'ph5':{
+		'cph5':{
 			'en' : 'Mexico',
 			'es' : 'México'
 		},
-		'ph6':{
+		'cph6':{
 			'en' : '<span class="black">Enrique Hinzpeter - </span> General Manager',
 			'es' : '<span class="black">Enrique Hinzpeter - </span> Gerente General'
 		},
-		'ph7':{
+		'cph7':{
 			'en' : 'Sepa la chucha # 139, Mexico City. Mx.',
 			'es' : 'Sepa la chucha # 139, Ciudad de México. Mx.'
 		},
-		'ph8':{
+		'cph8':{
 			'en' : 'About your project.',
 			'es' : 'Sobre su proyecto.'
 		},
-		'ph9':{
+		'cph9':{
 			'en' : "For general enquiries or anything you'd like to discuss, please contact us here.",
 			'es' : 'Para consultas generales o cualquier cosa que le gustaría hablar , por favor, póngase en contacto con nosotros aquí .'
 		},
-		'ph10':{
+		'cph10':{
 			'en' : 'Name.',
 			'es' : 'Nombre'
 		},
-		'ph11':{
+		'cph11':{
 			'en' : 'E-mail.',
 			'es' : 'Correo electrónico.'
 		},
-		'ph12':{
+		'cph12':{
 			'en' : 'Message.',
 			'es' : 'Mensaje.'
 		},
-		'ph13':{
+		'cph13':{
 			'en' : 'Send',
 			'es' : 'Enviar'
 		}
