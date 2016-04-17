@@ -195,6 +195,9 @@ html{
   font-size: 12px;
   padding: 4% 0%;
 }
+.footer h4{
+  margin-bottom: 5% !important;
+}
 .footer .fa{
   font-weight: bold;
   font-size: 20px;
