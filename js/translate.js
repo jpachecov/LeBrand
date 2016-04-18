@@ -194,7 +194,7 @@ var transale = {
 			'es':'CONSTRUYE ADENTRO  PARA  CREAR AFUERA'
 		},
 		'au9':{
-			'en':'Always that a Brand is designed, it is essential to <span class="bold">build the DNA of the Brand Identity</span>, Conceptual idea, Personality, Values and Goals, Behavior andRelationship.',
+			'en':'Always that a Brand is designed, it is essential to <span class="bold">build the DNA of the Brand Identity</span>, Conceptual idea, Personality, Values and Goals, Behavior and Relationships.',
 			'es':'Siempre que se diseñe una marca, es esencial  <span class="bold">construir el ADN de la identidad de marca</span> : Idea conceptual, Personalidad,Valores y Metas, Comportamiento y Relaciones'
 		},
 		'au10':{
@@ -226,7 +226,7 @@ var transale = {
 			'es':'Identidad'
 		},
 		'au17':{
-			'en':'INSTEAD OF TRYING TO BE DIFFERENT, BE MEANINGFUL',
+			'en':'INSTEAD OF TRYING TO BE DIFFERENT BE MEANINGFUL',
 			'es':'EN VEZ DE TRATAR DE SER DIFERENTE, SE SIGNIFICATIVO.'
 		},
 		'au18':{
@@ -356,6 +356,26 @@ var transale = {
 		'au49':{
 			'en':'When the <span class="bold">identity</span> and image are well established , a powerful and visually consistent <span class="bold">Branding</span> is the result',
 			'es':'Cuando la <span class="bold">identidad</span> y la imagen estan bien establecidas, un poderoso y visualmente coherente <span class="bold">Branding</span> es el resultado'
+		},
+		'au50':{
+			'en':'ABOUT',
+			'es':'NOSOTROS'
+		},
+		'au51':{
+			'en':'PROCESS',
+			'es':'PROCESO'
+		},
+		'au52':{
+			'en':'SERVICES',
+			'es':'SERVICIOS'
+		},
+		'au53':{
+			'en':'Work with us to increase the strengths of your brand in the world of today.<br><br> We design meaningful brand experiences, Stylishly, seductive so your clients will become your followers.',
+			'es':'Trabaja con nosotros para potencializar lasfortalezas de tu marca en el mundo de hoy. <br><br> Nosotros diseñamos experiencias de marca significativas, elegantes y seductoras para que sus clientes se convierten en sus seguidores.'
+		},
+		'au54':{
+			'en':'Image',
+			'es':'Imagen'
 		}
 
 

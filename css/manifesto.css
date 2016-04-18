@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'Gill Sans';
+    font-family: 'Gill Sans Bold';
     src: url('fonts/gillsansBold/GillSans-Bold.eot');
     src: url('fonts/gillsansBold/GillSans-Bold.eot?#iefix') format('embedded-opentype'),
         url('fonts/gillsansBold/GillSans-Bold.woff') format('woff'),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: 'Gill Sans';
+    font-family: 'Gill Sans Light';
     src: url('fonts/gillsansLight/GillSans-Light.eot');
     src: url('fonts/gillsansLight/GillSans-Light.eot?#iefix') format('embedded-opentype'),
         url('fonts/gillsansLight/GillSans-Light.woff') format('woff'),
@@ -37,12 +37,22 @@
 }
 
 
+@font-face {
+    font-family: 'Conv_Abadi MT Condensed Extra Bold';
+    src: url('fonts/Abadi/Abadi MT Condensed Extra Bold 2.eot');
+    src: local('☺'), url('fonts/Abadi/Abadi MT Condensed Extra Bold 2.woff') format('woff'), url('fonts/Abadi/Abadi MT Condensed Extra Bold 2.ttf') format('truetype'), url('fonts/Abadi/Abadi MT Condensed Extra Bold 2.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 body{
 	/*padding: 2%;*/
     font-family: 'Gill Sans';
 }
+
+
+
 
 
 h6{
@@ -64,6 +74,20 @@ a:hover{
 img{
 	width:100%;
 	height: 100%;
+}
+
+.textoBlanco{
+    color:white;
+}
+
+.numero{
+       font-family: 'Conv_Abadi MT Condensed Extra Bold';
+       font-size: 250px!important;
+}
+
+.light{
+     font-family: 'Gill Sans Light'; 
+     font-size: 14px;
 }
 
 .tituloMarion{
@@ -101,7 +125,7 @@ img{
 	vertical-align: top;
 }
 .big-number span:first-of-type{
-	padding-top: 70px;
+	padding-top: 110px;
 	position: absolute;
 	border-bottom: 5px solid #333;
 	font-size: 20px;
@@ -116,7 +140,8 @@ img{
 	margin-left: 80px;
 }
 .big-number.large-text span:first-of-type{
-	width: 145px;
+	    width: 155px;
+
 }
 .big-number.large-text span:last-of-type{
 	margin-left: 105px;
@@ -124,14 +149,24 @@ img{
 .number1{
 	width: 270px;
 	float: right;
+    margin: 10px 25px 0 0;
 }
 .number2{
 	width: 295px;
-	float: right;
+	       margin: 91px 0 0 24px;
 }
 .number3{
 	width: 300px;
 	float: right;
+}
+
+.au50{
+    left: 38px;
+    width: 153px!important;
+}
+
+.au51{
+        border-bottom: 5px solid #fff!important;
 }
 
 .p-description{
@@ -213,7 +248,7 @@ img{
 #aboutUno{
  	width:31%;
  	position: absolute;
- 	right: 0;
+ 	right: 5%;
  	z-index: 1;
  	top: -25%;
 }
@@ -222,7 +257,7 @@ img{
 #aboutDos{
  	width:100%;
  	position: relative;
- 	right: 0;
+ 	    right: 10%;
  	z-index: 1;
 }
 
@@ -234,11 +269,11 @@ img{
 }
 
 #aboutTres{
-width: 34%;
+    width: 34%;
     position: absolute;
-    right: 3%;
+       right: 10%;
     z-index: 1;
-    top: 102px;
+    top: 125px;
 }
 
 .uno{
@@ -426,7 +461,7 @@ width: 34%;
     position: absolute;
     width: 15%;
     left: 45%;
-    top: 132%;
+    top: 127%;
 }
 
 #linea8{
@@ -716,4 +751,16 @@ position: relative;
     left: 44.7%;
     position: absolute;
     margin-top: 17px;
+}
+
+.workUs{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Marion';
+    color: white;
+    padding: 30px 0;
+}
+
+.fondoNegro{
+    background-color: #000;
 }

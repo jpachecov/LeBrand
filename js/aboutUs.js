@@ -1,9 +1,7 @@
 $(document).ready(function() {
       var controller = $.superscrollorama({
-           
+            triggerAtTop: true
       });
-      // individual element tween examples
-    
       controller.addTween('#linea2', TweenMax.from( $('#linea2'), .25, {css:{left:'-1000px'}, ease:Quad.easeInOut}),0,5,false);
       controller.addTween('#linea3', TweenMax.from( $('#linea3'), .25, {css:{opacity:0,left:'600px'}, ease:Quad.easeInOut}),0,5,false);
       controller.addTween('#idea', TweenMax.from( $('#idea'), .25, {css:{opacity:0,top:'100px'}, ease:Quad.easeInOut}),0,5,false);
