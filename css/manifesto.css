@@ -1,11 +1,9 @@
 @font-face {
-    font-family: 'Gill Sans';
-    src: url('fonts/GillSans/GillSans.eot');
-    src: url('fonts/GillSans/GillSans.eot?#iefix') format('embedded-opentype'),
-        url('fonts/GillSans/GillSans.woff') format('woff'),
-        url('fonts/GillSans/GillSans.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+font-family: "GillSans";
+font-style: normal;
+font-weight: normal;
+
+src: url(fonts/gillsans.woff);
 }
 
 @font-face {
@@ -32,7 +30,6 @@
   font-family: 'Marion';
   font-style: normal;
   font-weight: normal;
-
   src: url(fonts/marion.woff);
 }
 
@@ -48,7 +45,7 @@
 
 body{
 	/*padding: 2%;*/
-    font-family: 'Gill Sans';
+   font-family: "GillSans";
 }
 
 
@@ -83,11 +80,17 @@ img{
 .numero{
        font-family: 'Conv_Abadi MT Condensed Extra Bold';
        font-size: 250px!important;
+         position: absolute;
+         z-index: 1;
 }
 
 .light{
-     font-family: 'Gill Sans Light'; 
-     font-size: 14px;
+       font-family: 'Gill Sans Light';
+    font-size: 14px;
+    position: absolute;
+    z-index: 0;
+    letter-spacing: 4px;
+
 }
 
 .tituloMarion{
@@ -129,6 +132,8 @@ img{
 	position: absolute;
 	border-bottom: 5px solid #333;
 	font-size: 20px;
+    border-bottom: 9px solid #5F5F62;
+    font-size: 17px;
 }
 .big-number span:last-of-type{
 	font-size: 170px;
@@ -162,11 +167,12 @@ img{
 
 .au50{
     left: 38px;
-    width: 153px!important;
+    width: 161px!important;
+
 }
 
 .au51{
-        border-bottom: 5px solid #fff!important;
+        border-bottom: 9px solid #fff!important;
 }
 
 .p-description{
@@ -209,7 +215,8 @@ img{
 	text-transform: uppercase;
 }
 .bold{
-	font-weight: bold;
+/*	font-weight: bold;*/
+    font-family: 'Gill Sans Bold';
 }
 
 .logossmallCenter{
@@ -273,7 +280,7 @@ img{
     position: absolute;
        right: 10%;
     z-index: 1;
-    top: 125px;
+
 }
 
 .uno{
@@ -296,7 +303,9 @@ img{
 
 .text{
 	font-size: 17px;
-        padding: 0 15px;
+    padding: 0 15px;
+    text-align: justify;
+    letter-spacing: 1px;
 }
 
 #second{
@@ -326,6 +335,7 @@ img{
   -o-background-size: cover;
   background-size: cover;*/
   background-size: 100% 100%;
+      height: 250px;
 }
 
 .trianguloInferior{
@@ -703,31 +713,31 @@ position: relative;
     position: relative;
     width: 0.3%;
     left: 47.5%;
-    top: 8%;
+    top: 6%;
 }
 
 #bran{
     width: 30%;
     left: 32.7%;
     position: absolute;
-    top: 36%;
+    top: 25%;
 }
 
 #linea24{
     position: relative;
     width: 0.3%;
     left: 47.5%;
-    top: 45%;
+    top: 31%;
 }
 
 #texto4{
-    position: relative;
+position: relative;
     width: 16%;
     font-size: 16px;
     color: white;
     text-align: center;
     left: 40%;
-    top: 168px;
+    top: 165px;
 }
 
 #texto5{
@@ -741,26 +751,42 @@ position: relative;
 }
 
 #linea25{
-position: relative;
+    position: relative;
     width: 0.3%;
     left: 47.5%;
+    top: 36%;
 }
 
 #experiencia{
     width: 6%;
     left: 44.7%;
     position: absolute;
-    margin-top: 17px;
+    top: 77%;
 }
 
 .workUs{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Marion';
     color: white;
     padding: 30px 0;
+    letter-spacing: 1px;
 }
 
 .fondoNegro{
     background-color: #000;
+}
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 1191px solid transparent;
+    border-bottom: 85px solid black;
+}
+
+.altura{
+        height: 50px;
+}
+.alturaDos{
+        height: 150px;
 }
