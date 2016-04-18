@@ -96,7 +96,24 @@ var transale = {
 			'es' : '© 2016 Le Brand capital. Todos los derechos reservados.'
 		}
 	} ,
-
+	'project':{
+		'agora':{
+		'en' : '<h1>Project.</h1>\
+		    	<h4>Agora.</h4>\
+		    	<p>\
+		    		Identity + Branding + Web Design for the new plaza boutique located at Tuxtla Gutierrez, Chiapas.\
+		          <br><br>\
+		        <strong> Le Brand  </strong> collaborated with the firm of architects responsible for developing the new plaza boutique at Chiapas, in order to better understand the architectonic concept for the project. This collaboration helped to cultivate the conceptual aspects of the branding   <strong> Le Brand  </strong> developed for the project. The process started with marketing research, which helped to achieve the best functional naming of the plaza, as well as the complete development of the branding, web design, and specific applications of the project.\
+		    	</p>',
+		'es' : '<h1>Proyecto.</h1>\
+		    	<h4>Agora.</h4>\
+		    	<p>\
+		    		Identidad + Branding + Diseño Web para una nueva plaza boutique en la ciudad de Tuxtla Gutiérrez, Chiapas.\
+		          <br><br>\
+		        <strong> Le Brand  </strong> colaboró junto con una firma de arquitectos para comprender el concepto arquitectónico del proyecto y crear de manera congruente la identidad e  imagen de la nueva plaza boutique en Chiapas.  El proceso inició desde la investigación de mercados para la selección adecuada del naming del proyecto, así como el desarrollo del branding, diseño web, elementos arquitectónicos y aplicaciones específicas.\
+		    	</p>'
+	}
+	},
 	'index':{
 		'ph1':{
 			'en' : "New plaza boutique located at Tuxtla Gutierrez, Chiapas.",
@@ -452,8 +469,8 @@ $(document).ready(function(){
 		$(this).addClass('len_selected');
 		$(this).css('color','#888885');
 		$('#eng_len').removeClass('len_selected');
-		$('#eng_len').css('color','white');	
+		$('#eng_len').css('color','white');
 	});
-	
+
 });
 

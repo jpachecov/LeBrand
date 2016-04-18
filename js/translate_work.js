@@ -49,6 +49,8 @@ transale.work = {
 		         La sociedad cooperativa apicultora de Quintana Roo, Ah Muzen Kab, iniciativa encargada de la recolección, producción y comercialización de miel orgánica de la selva maya. Con el objetivo de formalizar una identidad e imagen que pudiese posicionar a la empresa acuerdieron a <strong> Le Brand </strong> para potencializar el capital visual del proyecto aspirando a ser altamente competitivo en países alrededor del mundo como: Japón, Alemania, Estados Unidos.\
 		            <br><br>\
 		          Se creó un lineamiento de diseño que tuviera el nivel y las pautas para poder competir en los mercados internacionales sin que perdiera  la escencia de los procesos tradicionales y orgánicos de la apicultura regional mexicana. Es así como se desarrolló un branding que cumpliera con todas las características mencionadas, enfatizadas en la resolución del cuidado y detalle de la ilustración de la marca Ah Muzen Kab.\
+		          <br><br>\
+		         La nueva imagen fue adoptada con gusto por la sociedad cooperativa y comenzó a ser empleada para sus productos, empaques y redes sociales.\
 		    	</p>'
 	},
 
@@ -92,7 +94,7 @@ transale.work = {
 		    	</p>\
 		    	<img src="../img/work/amerivacs/imagotipo_000.png" class="icon">\
 		      <img src="../img/work/amerivacs/grafico_000.png" class="center-img">'
-	}, 
+	},
 
 	'centennial' : {
 		'en' : '<h1>Project.</h1>\
@@ -127,6 +129,10 @@ transale.work = {
 		    		Identidad + Branding + Diseño Web para la fundación Conectando México, con el propósito de proveer de Internet gratuito con fines educativos en algunas de las zonas más marginadas de la Ciudad de México.\
 		            <br><br>\
 		        La fundación Conectando México está integrada por diferentes ciudadanos y empresarios comprometidos con la educación de calidad en México a través de herramientas digitales como el Internet, llevando a las zonas más marginadas de la Ciudad de México, una oportunidad de superación educativa a las comunidades.\
+		            <br><br>\
+		              <strong> Le Brand </strong>  tuvo la gran oportunidad de poder contribuir a este proyecto creando la  identidad y el desarrollo complete del branding,así como diversas aplicaciones requeridas.\
+		            <br><br>\
+		 	El branding creado para esta fundación fue muy bien tomado por los patrocinadores; Actualmente se sigue usando para promover y expandir estafundación en todo el país.\
 		    	</p>'
 	},
 
@@ -134,14 +140,18 @@ transale.work = {
 		'en' : '<h1>Project.</h1>\
 		    	<h4>Elsa Elena.</h4>\
 		    	<p>\
-		    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias consequuntur maiores voluptas! Nostrum mollitia autem dolorum minima et eius eaque dolorem, aspernatur quos, expedita hic cupiditate natus architecto est, non facere labore! Ipsam dolores consequatur nulla eaque placeat molestias doloremque, culpa nemo reiciendis omnis et illo sapiente voluptatibus, adipisci similique.\
+		    		Identity + Branding + Web Design for the well-known architect Elsa Elena, who has a bright future in the architecture and interior design fields. Elsa Elena has collaborated on many projects in the state of Chiapas, as well as in cities such as Mexico City, and Acapulco. Elsa Elena contacted <strong>Le Brand</strong> with the objective of redesigning her personal branding and website design. After coming to understand the essence of her work through strategic interviews, <strong>Le Brand</strong> created a strong and coherent design that showcased Elsa Elena’s identity and architectonic style. <br><strong>Le Brand’</strong>s proposal was very well received by the architect and by her clients. Elsa Elena expressed that the branding represented her work and herself excellently.\
 		    	</p>',
 		'es' : '<h1>Project.</h1>\
 		    	<h4>Elsa Elena.</h4>\
 		    	<p>\
-		    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias consequuntur maiores voluptas! Nostrum mollitia autem dolorum minima et eius eaque dolorem, aspernatur quos, expedita hic cupiditate natus architecto est, non facere labore! Ipsam dolores consequatur nulla eaque placeat molestias doloremque, culpa nemo reiciendis omnis et illo sapiente voluptatibus, adipisci similique.\
+		    		Identidad + Branding + Diseño Web para la renombrada arquitecta y especialista en interiorismo, Arq. Elsa Elena González Labrada, la cual lleva una gran trayectoria en la decoración y la arquitectura de interiores al participar en diferentes obras y proyectos en la Ciudad de México, Acapulco, Puerto Arista y Chiapas.\
+		    		 <br><br>\
+		    		 Elsa Elena se acercó a Le Brand con la petición de configurar el diseño de su branding personal. Tras concluir con una exhaustiva investigación de su trabajo, analizar los elementos que la caracterizan, los estilos y colores con los que mástrabaja; Solucionamos la problemática creando una imagen que reflejase tanto el estilo único de la arquitecta como la trayectoria y el legado de sus obras. \
+		    		  <br><br>\
+		    		Nuestra propuesta de branding fue muy bien aceptada por la arquitecta, así como por sus clientes ya que representaba fielmente su trabajo y personalidad.\
 		    	</p>'
-	}, 
+	},
 
 	'town':{
 		'en' : '<h1>Project.</h1>\
@@ -168,7 +178,7 @@ transale.work = {
 		    	</p>\
 		    	<img src="../img/work/fighter_town/logo_001.png" class="icon">\
 		      <img src="../img/work/fighter_town/grafico_000.png" class="foot" style="width: 625px">'
-	}, 
+	},
 
 	'capital' : {
 		'en' : '<h1>Project.</h1>\
@@ -183,7 +193,7 @@ transale.work = {
 		          <br>\
 		          <br>\
 		          <strong> Le Brand </strong>  also had the opportunity to create an array of diverse applications of the new branding that will be in direct contact with the customer.  This branding will reinforce the motives and desires of Grupo Chapital. The new branding has been very well received by users, due to the fact that it is visually attractive andaccurately describes Grupo Chapital’s experience and expertise.\
-		    	</p>', 
+		    	</p>',
 		'es' : '<h1>Proyecto.</h1>\
 		    	<h4>Grupo Chapital.</h4>\
 		    	<p>\
@@ -207,7 +217,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		    		LJTC is a Family Business that seeks to invest in minority or majority positions in companies with growth potential.\
 		    	</p>\
 		    	<img src="../img/work/jltc/grafico_000.png" class="icon">\
-		      	<img src="../img/work/jltc/grafico_002.png" class="center-img">', 
+		      	<img src="../img/work/jltc/grafico_002.png" class="center-img">',
 		'es' : '<h1>Proyecto.</h1>\
 		    	<h4>JLTC Partners</h4>\
 		    	<p>\
@@ -215,7 +225,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		    	</p>\
 		    	<img src="../img/work/jltc/grafico_000.png" class="icon">\
 		      	<img src="../img/work/jltc/grafico_002.png" class="center-img">'
-	}, 
+	},
 
 	'marmoline' : {
 		'en' : '<h1>Project.</h1>\
@@ -226,7 +236,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		        Marmoline contacted <strong> Le Brand </strong> in search of an urgent re-design in order to consolidate their identity and make their company a more attractive option for customers.\
 		              <br><br>\
 		          After conducting marketing research on all the different process that the company was involved with, <strong> Le Brand </strong> created new branding that reflected the characteristics that the company wished to communicate to the users, such as elegance, quality, excellent design, and sobriety.\
-		    	</p>', 
+		    	</p>',
 		'es' : '<h1>Proyecto.</h1>\
 		    	<h4>Marmoline.</h4>\
 		    	<p>\
@@ -236,7 +246,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		              <br><br>\
 		         Después de una larga investigación sobre todos los procesos operativos de la empresa, así como la calidad de sus materiales y acabados de los productos, se desarrolló la nueva identidad de Marmoline,  la cual refleja los valores centrales del proyecto.\
 		    	</p>'
-	}, 
+	},
 
 	'slice' : {
 		'en' : '<h1>Project.</h1>\
@@ -245,7 +255,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		    		At <span class="bold">SUNSLICE</span>, we aware we\'re not only growing produce: we grow smiles for you, your family, our growers and everyone who is part of the SUNSLICE family.\
 		        <br> <br>\
 		        Teaming up to be the leader in our market and to offer our customers the best organic products wegrow, industrialize and commercialize. These products have the highest standards of quality, service and logistics. We are committed to providing our fruits and vegetables from the farm to the table of our consumers.\
-		    	</p>', 
+		    	</p>',
 		'es' : '<h1>Proyecto.</h1>\
 		    	<h4>Sunslice LLC.</h4>\
 		    	<p>\
@@ -253,7 +263,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		        <br> <br>\
 		       Crear el branding de Sunslice fue todo un reto ya que tenía que competir con marcas norteamericanas dentro del mercado nacional de Estados Unidos en tiendas de auto- servicios y Whole Foods market. Debía contar con una personalidad sustentable, amigable con el medio ambiente y saludable mientras que al mismo tiempo debía de representar la vanguardia minimalista, la seriedad y el prestigio de la empresa. La marca de Sunslice fue un éxito ya que tuvo gran aceptación en el mercado norteamericano gracias a las estrategias de comunicación implementadas en las plataformas digitales.\
 		    	</p>'
-	}, 
+	},
 
 	'tulum' : {
 		'en' : '<h1>Project.</h1>\
@@ -262,7 +272,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		    		Identity + Branding + Web Design for the local government administration of Tulum image of 2014- 2016.\
 		                <br><br>\
 		         Candidates in the mayoral election of Tulum invited <strong> Le Brand </strong> to create a proposal for the new image of the government of Tulum. <strong> Le Brand </strong> conducted research on the history, culture, geography, plants, and animals of Tulum in order to decide what elements represent Tulum the best. A proposal was created for the new web page of the Town hall and designs were submitted for the many applications and ads Tulum uses to make citizens aware of social and government programs.\
-		    	</p>', 
+		    	</p>',
 		'es' : '<h1>Proyecto.</h1>\
 		    	<h4>Tulum. </h4>\
 		    	<p>\
@@ -270,7 +280,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		                <br><br>\
 		        El electo candidato de Tulúm invitó a Le Brand a participar en la creación de una propuesta para la nueva imagen del gobierno municipal de Tulúm en la administración que tomaría poder en 2014. Se hizo una gran investigación sobre la historia, cultura, geografía, fauna y flora de Tulúm para poder delimitar que elementos caracterizarían mejor la imagen gubernamental.  También se hizo una propuesta de la nueva página web del ayuntamiento así como diferentes aplicaciones y estrategias comunicativas para dar a conocer a la ciudadanía, los distintos programas que ofrecería este nuevo gobierno.\
 		    	</p>'
-	}, 
+	},
 
 	'vintage' : {
 		'en' : '<h1>Project.</h1>\
@@ -279,7 +289,7 @@ Como cualquier otro negocio en México, había enfocado pocos recursos e interé
 		    		Editorial engineering, marketing strategies, naming and complete branding for Vintage magazine, a magazine focusing on topics such as music, design, and art from Puebla, Mexico.\
 		              <br><br>\
 		         Vintage magazine is the point of origination of <strong> Le Brand </strong> . After years of studying together, Partners Alexander Tadlock and Enrique Hinzpeter began their first design project back in 2013. This project consisted of creating an entire commercialmagazine as a final project for their university. Not only was <strong> Le Brand </strong> founded by this partnership, but also the very first professional project of <strong> Le Brand </strong> was created with such uniqueness that it was awarded the Best National University Editorial Project 2013 by the Mexican Design Association.  This project was also recognized by the Worldwide Editorial Gustavo Gili and the Mexican cultural Fondo de Cultura Economica, and received an honored mention by the Universidad de las Americas Puebla (UDLAP).\
-		    	</p>', 
+		    	</p>',
 		'es' : '<h1>Proyecto.</h1>\
 		    	<h4>Vintage.</h4>\
 		    	<p>\
@@ -306,6 +316,11 @@ function translate_work(page, lang){
 	for(var key in transale['footer']){
 		$('.'+key).html(transale['footer'][key][lang])
 	}
+
+	for(var key in transale['agora']){
+		$('.'+key).html(transale['agora'][key][lang])
+	}
+
 }
 
 function init_lang_work(page){
