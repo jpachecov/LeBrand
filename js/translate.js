@@ -642,9 +642,9 @@ $(document).ready(function(){
 			return;
 		}
 		$(this).addClass('len_selected');
-		$(this).css('color','#888885');
+		//$(this).css('color','#888885');
 		$('#es_len').removeClass('len_selected');
-		$('#es_len').css('color','white');
+		//$('#es_len').css('color','white');
 	});
 
 	$('#es_len').click(function(){
@@ -652,9 +652,9 @@ $(document).ready(function(){
 			return;
 		}
 		$(this).addClass('len_selected');
-		$(this).css('color','#888885');
+		//$(this).css('color','#888885');
 		$('#eng_len').removeClass('len_selected');
-		$('#eng_len').css('color','white');
+		$//('#eng_len').css('color','white');
 	});
 
 });

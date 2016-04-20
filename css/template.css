@@ -251,12 +251,25 @@ html{
   font-size: 12px;
 }
 #eng_len{
- color: gray;
+ color: white;
 }
+
+#eng_len:hover{
+  color: gray !important;
+  border-color: white !important;
+}
+
 #es_len{
   color: white;
 }
+
+#es_len:hover{
+  color: #838383 !important;
+}
+
 .len_selected{
+  color: gray !important;
+  border-color: white !important;
 }
 
 .info{
