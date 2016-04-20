@@ -54,7 +54,7 @@ var transale = {
 		},
 		'cph9':{
 			'en' : "For general enquiries or anything you'd like to discuss, please contact us here.",
-			'es' : 'Para consultas generales o cualquier cosa que le gustaría hablar , por favor, póngase en contacto con nosotros aquí .'
+			'es' : 'Para consultas generales o sobre lo que desees hablar, por favor contáctanos aquí.'
 		},
 		'cph10':{
 			'en' : 'Name.',
