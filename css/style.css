@@ -43,3 +43,11 @@
 .fondoGris{
   background: #ccc;
 }
+
+.bolita{
+ background-color: white !important;
+}
+.active{
+  border-width: 3px !important;
+  background-color: #333238 !important;
+}
