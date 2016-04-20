@@ -428,8 +428,8 @@ var transale = {
 			'es':'Identidad'
 		},
 		'au17':{
-			'en':'INSTEAD OF TRYING TO BE DIFFERENT BE MEANINGFUL',
-			'es':'EN VEZ DE TRATAR DE SER DIFERENTE, SE SIGNIFICATIVO.'
+			'en':'<span class="diferent">INSTEAD OF TRYING TO BE DIFFERENT</span><br> BE MEANINGFUL',
+			'es':'<span class="diferent">EN VEZ DE TRATAR DE SER DIFERENTE,</span><br> SE SIGNIFICATIVO.'
 		},
 		'au18':{
 			'en':'<span class="bold">The common brand</span> are always trying to find new ways to standout from the competitors instead of <span class="bold">looking for the essence inside them</span>, the thing that makes every Brand unique from the rest.',
@@ -552,12 +552,12 @@ var transale = {
 			'es':'<h2 class="title-gray">Identidad.</h2><ul><li class="circle-li">Diseño Editorial.</li><li class="circle-li">Sistema de marca.</li><li class="circle-li">Sistema de identidad.</li><li class="circle-li">Periféricos.</li><li class="circle-li">Publicidad.</li><li class="circle-li">Ilustración.</li><li class="circle-li">Iconografía.</li><li class="circle-li">Flyers e Invitaciones.</li><li class="circle-li">Publicaciones personalizadas.</li><li class="circle-li">Copywriting.</li>'
 		},
 		'au48':{
-			'en':'<h2 class="title-gray">Web.</h2><ul><li class="circle-li">User Experience Design <span>(UX)</span>.</li><li class="circle-li">Front-end / HTML + CSS <span>(pixel perfect)</span>.</li><li class="circle-li">Content Managment System.</li><li class="circle-li">Wireframes.</li></ul>',
-			'es':'<h2 class="title-gray">Web.</h2><ul><li class="circle-li">Diseño de experiencia <span>(UX)</span>.</li><li class="circle-li">Front-end / HTML + CSS <span>(pixel perfect)</span>.</li><li class="circle-li"> Sistema de gestión de contenidos.	</li><li class="circle-li">Wireframes.</li></ul>'
+			'en':'<h2 class="title-gray">Web.</h2><ul><li class="circle-li">User Experience Design <span>(UX)</span>.</li><li class="circle-li">Front-end/HTML+CSS <span>(pixel perfect)</span>.</li><li class="circle-li">Content Managment System.</li><li class="circle-li">Wireframes.</li></ul>',
+			'es':'<h2 class="title-gray">Web.</h2><ul><li class="circle-li">Diseño de experiencia <span>(UX)</span>.</li><li class="circle-li">Front-end/HTML+CSS <span>(pixel perfect)</span>.</li><li class="circle-li"> Sistema de gestión de contenidos.	</li><li class="circle-li">Wireframes.</li></ul>'
 		},
 		'au49':{
-			'en':'When the <span class="bold">identity</span> and image are well established , a powerful and visually consistent <span class="bold">Branding</span> is the result',
-			'es':'Cuando la <span class="bold">identidad</span> y la imagen estan bien establecidas, un poderoso y visualmente coherente <span class="bold">Branding</span> es el resultado'
+			'en':'When the <span class="bold">identity</span> and <span class="bold">image</span> are well established , a powerful and visually consistent <span class="bold">Branding</span> is the result.',
+			'es':'Cuando la <span class="bold">identidad</span> y la <span class="bold">imagen</span> estan bien establecidas, un poderoso y visualmente coherente <span class="bold">Branding</span> es el resultado.'
 		},
 		'au50':{
 			'en':'ABOUT',
@@ -572,8 +572,8 @@ var transale = {
 			'es':'SERVICIOS'
 		},
 		'au53':{
-			'en':'Work with us to increase the strengths of your brand in the world of today.<br><br> We design meaningful brand experiences, Stylishly, seductive so your clients will become your followers.',
-			'es':'Trabaja con nosotros para potencializar lasfortalezas de tu marca en el mundo de hoy. <br><br> Nosotros diseñamos experiencias de marca significativas, elegantes y seductoras para que sus clientes se convierten en sus seguidores.'
+			'en':'Work with us to increase the strengths of your brand in the world of today.<br><br> We design meaningful brand experiences, stylishly, seductive so your clients will become your followers.',
+			'es':'Trabaja con nosotros para potencializar las fortalezas de tu marca en el mundo de hoy. <br><br> Nosotros diseñamos experiencias de marca significativas, elegantes y seductoras para que sus clientes se convierten en sus seguidores.'
 		},
 		'au54':{
 			'en':'Image',

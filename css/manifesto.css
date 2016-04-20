@@ -120,6 +120,10 @@ img{
 	color: #7B7D80;
 }
 
+.title-image{
+        width: 185px;
+}
+
 
 
 /*Números*/
@@ -172,7 +176,7 @@ img{
 }
 
 .au51{
-        border-bottom: 9px solid #fff!important;
+        border-bottom: 9px solid #000   !important;
 }
 
 .p-description{
@@ -257,7 +261,7 @@ img{
  	position: absolute;
  	right: 5%;
  	z-index: 1;
- 	top: -25%;
+ 	top: -35%;
 }
 
 
@@ -287,7 +291,7 @@ img{
 	position: relative;
 	z-index: 1;	
 	background:transparent;
-	top: 100px;
+	top: 120px;
     padding-bottom: 0;
 
 }
@@ -297,8 +301,9 @@ img{
 }
 
 .subtitle{
-	font-size: 18px;
-    font-family: 'Gill Sans';
+    font-size: 16px;
+    font-family: "GillSans";
+    letter-spacing: 2px;
 }
 
 .text{
@@ -471,7 +476,7 @@ img{
     position: absolute;
     width: 15%;
     left: 45%;
-    top: 127%;
+    top: 137%;
 }
 
 #linea8{
@@ -789,4 +794,9 @@ position: relative;
 }
 .alturaDos{
         height: 100px;
+}
+
+.diferent{
+    font-size: 18px;
+        font-family: 'Gill Sans Bold';
 }
