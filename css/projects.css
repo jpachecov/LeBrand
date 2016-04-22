@@ -309,7 +309,7 @@
    */
   .pg-2-marmoline{
     color: white;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
     background-position: 0% 0%;
     background-image: url(../img/work/marmoline/background_000-1.png);
     text-align: center;
@@ -322,7 +322,7 @@
   .marmoline-middle img{
    display: block;
   margin-left: auto;
-  margin-top: -50%;
+  margin-top: -60.5%;
   }
 
 
@@ -371,7 +371,7 @@
    */
   .pg-2-vintage{
     color: black;
-    padding-bottom: 10%;
+    padding-bottom: 25%;
     background-position: 0% 0%;
     background-image: url(../img/work/vintage/background_000-1.png);
     text-align: center;
@@ -385,7 +385,14 @@
    display: block;
   margin-left: auto;
   margin-top: -50%;
-  }
+  width: 100%;
+}
+.revista{width: 72%;
+margin-left: 5%;
+transform: translateX(0px);
+margin-top: -59%;
+
+}
 
 .letstart_button{
   position: absolute;
