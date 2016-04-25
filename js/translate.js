@@ -152,15 +152,11 @@ var transale = {
 	},
 
 	'amerivacs' : {
-		'en' : '<span class="bold">AmeriVacS</span> in an effort to build vacuum sealers that exceed industry standards for design integrity, component quality, speed, redundancy, and failsafe mechanisms. Experience that is evident in every sealer they produce: from the very first, to their latest medical vacuum sealer.\
-		        <br> <br>\
-		        The project needed a fresh identity, information estructure and branding strategies for new target markets.',
-
-		'es' : 'Identidad + Branding + Diseño Web para la identidad de la empresa Americana especializada en elaboración de maquinas de sellado al vacio, con gran trayectoria nacional.\
-		        <br> <br>\
-		        Amerivacs es una empresa americana con presencia nacional e internacional con más de 20 años de experiencia en el mercado. Dentro de los planes estratégicos de la empresa, Amerivacs requeria actualizar su identidad para acercarse a nuevos clientes potenciales. Le Brand tuvo la ardua tarea de analizar y conceptualizar gráficamente, los atributos y altos estándares de calidad con los que esta empresa americana opera a nivel nacional.\
-		        <br><br>\
-		        Actualmente, los directivos de Amerivacs quedaron totalmente satisfechos con la nueva identidad de la empresa, ya que refleja en lo absoluto, ya prestigiada trayectoria del proyecto.'
+		'en' : 'Identity + Branding + Web Design for a national American vacuum sealers company.\
+        		<br> <strong>AmeriVacS</strong> is an established national American vacuum sealers company that builds vacuum sealers that exceed industry standards for design integrity, component quality, speed, redundancy, and failsafe mechanisms. These qualities are evident in every sealer they produce: from the very first, to their latest medical vacuum sealer.\
+        		<br>\
+        		Amerivacs came to <strong>Le Brand</strong> in need of a fresh identity, information structuring, and branding strategies for new target markets. <strong>Le Brand</strong> studied the company in order to introduce new freshness to the company and reinforce the high quality values that Amerivacs has established for 20 years.',
+		'es' : 'Identidad + Branding + Diseño Web para la identidad de la empresa Americana especializada en elaboración de maquinas de sellado al vacio, con gran trayectoria nacional. <br>Amerivacs es una empresa americana con presencia nacional e internacional con más de 20 años de experiencia en el mercado. Dentro de los planes estratégicos de la empresa, Amerivacs requeria actualizar su identidad para acercarse a nuevos clientes potenciales. Le Brand tuvo la ardua tarea de analizar y conceptualizar gráficamente, los atributos y altos estándares de calidad con los que esta empresa americana opera a nivel nacional.<br> Actualmente, los directivos de Amerivacs quedaron totalmente satisfechos con la nueva identidad de la empresa, ya que refleja en lo absoluto, ya prestigiada trayectoria del proyecto.'
 	},
 
 	'centennial' : {
@@ -201,11 +197,14 @@ var transale = {
 	},
 
 	'town':{
-		'en' : '<span class="bold">Fighter Town Brewing</span> will open San Diego\'s 2016 first contract craft brewery, solving the probelm of scaling up for local craft brewers by contracting with them to produce their beers at scale, and as the producer for national an international breweries who seek a local presence.\
-		        <br> <br>\
-		        The project needed a meaningful identity and brand strategy for the start up.\
-		        <br> <br>\
-		        After marketing research and inspiration from the Top Gun story, <span class="bold">Le Brand</span> come up with a solid and powerful solution for the project.',
+		'en' : 'Identity + Branding + Web Design for the Fighter Town Brewing Co. In 2016 will be San Diego’s primer contract brewer.\
+		        <br>\
+		        Fighter Town is a local Californian contract craft brewery that assists craft breweries in reaching their potential through strategic partnership and lucrative tasting rooms. Fighter Town approach <strong>Le Brand</strong> with the challenge of creating an identity that could stand out and act as an example for other local craft breweries competing against the established national brands that control more than the 90% of the national market.\
+		        <br>\
+		        <strong>Le Brand</strong> responded to the call of duty for this important mission. The victory of the local allies against the commercial monster brands depended on the creation of a very powerful weapon: The Fighter Town company’s branding.\
+		        <br> Through many strategic reunions with the commanders of this mission, extensive marketing research, and some true Californian inspiration such as the Top Gun movie, <strong>Le Brand</strong> lead this amazing contract craft beer project to victory. <strong>Le Brand</strong> delivered the identity and image required for the battlefield.\
+		        <br> \
+		        The illustration and the original typography design created by <strong>Le Brand</strong> were accepted with high praise by the investors and the users. Right now Fighter Town is under construction and will soon be ready to start expanding from California to therest of the United States and the world.',
 
 		'es' : 'Identidad + Branding + Diseño Web para la empresa Fighter Town Brewing Co. La cual será en 2016 la primera cervecería/ embotelladora artesanal en San Diego, California.\
 		        <br> <br>\
@@ -244,7 +243,7 @@ var transale = {
         			The new image was a great success with the businessman and new investors.\
        			 JLTC was so happy with the results that they asked Le Brand to continue working on their website and their social media networks. ',
 
-		'es' : 'dentidad + Branding + Diseño Web para el Holding familiar JLTC, el cual entre sus muchos campos se especializa en los agronegocios, inversión financiera y bienes raíces. \
+		'es' : 'Identidad + Branding + Diseño Web para el Holding familiar JLTC, el cual entre sus muchos campos se especializa en los agronegocios, inversión financiera y bienes raíces. \
 			<br><br>\
 			JLTC es una empresa financiera con gran capital y muchos años de experiencia, la cual requería de una nueva imagen para poder transmitir esta fortaleza y seguridad de hacer negocios con dicho Holding financiero a sus futuros inversionistas y socios. Le Brand decidió solucionar esto al crear un sello auténtico como imagotipo para reflejar los valores que engloban a la empresa. \
 			<br><br>\
@@ -268,9 +267,9 @@ var transale = {
 
 	'slice' : {
 
-		'en' : 'At <span class="bold">SUNSLICE</span>, we aware we\'re not only growing produce: we grow smiles for you, your family, our growers and everyone who is part of the SUNSLICE family.\
-		        <br> <br>\
-		        Teaming up to be the leader in our market and to offer our customers the best organic products wegrow, industrialize and commercialize. These products have the highest standards of quality, service and logistics. We are committed to providing our fruits and vegetables from the farm to the table of our consumers.',
+		'en' : 'Identity + Branding + Web Design for a Mexican-Californian fresh produce agribusiness brand.\
+		        <br>\
+		        Sunslice’s consumer’s desires were critical in determining the process of creating a brand for the company. While developing branding for Sunslice, <strong>Le Brand</strong> was asked to create very high quality visuals that would meet the high expectations of millennial consumers. Sunslice was looking for branding that would seem friendly and sustainable, and would represent the company with a healthy personality. At the same time, Sunslice wanted the designs to be forceful, sober, and minimalistic. <strong>Le Brand</strong> met these demands with enthusiasm and Sunslice was not disappointed.',
 
 		'es' : 'Identidad + Branding + Diseño Web para la empresa mexicana-americana comercializadora de productos con la mejor calidad. Protagonistas de la industria agrícola en México al ser grandes exportadores y mantener un negocio sustentable.\
 		        <br> <br>\
@@ -359,7 +358,24 @@ var transale = {
 		'ph15':{
 			'en' : 'A national American vacuum sealers company.',
 			'es' : 'Empresa Americana especializada en elaboración de maquinas de sellado al vacio, con gran trayectoria nacional.'
+		},
+		'ph16':{
+			'en' : 'A big smile in every bite! Sunslice foods offers the best fresh produce in California.',
+			'es' : 'Una gran sonrisa en cada bocado! Alimentos Sunslice ofrece los mejores productos frescos en California.'
+		},
+		'ph17':{
+			'en' : 'The victory of the local allies against the commercial monster brands depended on the creation of a very powerful weapon: The Fighter Town company’s branding.',
+			'es' : 'La victoria de los aliados locales contra las marcas comerciales monstruo dependía de la creación de un arma muy poderosa : la marca de la compañía Fighter Town.'
+		},
+		'ph18':{
+			'en' : 'Amerivacs came to Le Brand in need of a fresh identity, information structuring, and branding strategies for new target markets.',
+			'es' : 'Amerivacs vino a Le Brand en la necesidad de una identidad fresca, estructuración de la información, y estrategias de marca para los nuevos mercados de destino.'
+		},
+		'ph19':{
+			'en' : 'Agroamericana works within the 4 sectors of the Agro-business: the farming, harvest, distribution, and marketing of agricultural products. Le Brand had the challenge of creating a unique identity for this international holding.',
+			'es' : 'Agroamericana interviene en los cuatro segmentos del agro: El cultivo, la cosecha, la distribución y la comercialización con estrategias y planes ejecutivos de productos perecederos. Le Brand tuvo el reto de crear la imagen de esta empresa internacional.'
 		}
+
 	},
 
 	'aboutUs':{
