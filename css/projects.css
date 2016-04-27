@@ -7,6 +7,7 @@
  .pg-1 img{
  	display: block;
 	margin: 10em auto 0px;
+  margin-bottom: 15%;
  }
  .pg-2{
   font-family: "GillSans", sans-serif;
@@ -151,10 +152,9 @@
   * Amerivacs
   */
   .pg-2-ameri{
-    margin-top: 12%;
   	color: white;
   	background-position: 0% 0%;
-  	background-image: url(../img/work/amerivacs/background_000-1.png);
+  	/*background-image: url(../img/work/amerivacs/background_000-1.png);*/
   }
   .pg-2-ameri h1{
   	margin-top: 20%;
@@ -451,4 +451,16 @@ margin-top: -59%;
   letter-spacing: 2px;
   font-size: small;
   line-height: 25px;
+}
+
+.noRotate{
+  -ms-transform: skewY(6deg) ; /* IE 9 */
+    -webkit-transform: skewY(6deg) ; /* Chrome, Safari, Opera */
+    transform: skewY(6deg) ;
+}
+
+.siRotate{
+  -ms-transform: skewY(-6deg) ; /* IE 9 */
+    -webkit-transform: skewY(-6deg) ; /* Chrome, Safari, Opera */
+    transform: skewY(-6deg) ; 
 }
