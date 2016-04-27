@@ -97,6 +97,11 @@ var transale = {
 		}
 	} ,
 	'project':{
+
+		'lets':{
+			'en':'Let\'s start your project.',
+			'es':'Empecemos tu proyecto.',
+		},
 		'agora':{
 		'en' : 'Identity + Branding + Web Design for the new plaza boutique located at Tuxtla Gutierrez, Chiapas.\
 		          <br><br>\
