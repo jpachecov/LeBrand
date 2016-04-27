@@ -1,10 +1,12 @@
 $(document).ready(function(){	
 	var hecho = false;
 	var hecho2 = false;
-	$.Velocity.hook($('#anim_1'), "translateX", '-100%');
+	$.Velocity.hook($('#anim_1'), "translateX", '-100px');
 	$.Velocity.hook($('#anim_1'), "opacity", '0');
-	$.Velocity.hook($('#anim_2'), "translateX", '200%');
-	$.Velocity.hook($('#anim_3'), "translateX", '-100%');
+	$.Velocity.hook($('#anim_2'), "translateX", '200px');
+	$.Velocity.hook($('#anim_2'), "opacity", '0');
+	$.Velocity.hook($('#anim_3'), "translateX", '-100px');
+	$.Velocity.hook($('#anim_3'), "opacity", '0');
 	var proy = $('.titulo').offset().top;
 	$(window).scroll(function(){
 		if($(window).scrollTop() > proy -100 && !hecho){
@@ -23,6 +25,7 @@ $(document).ready(function(){
 			});	
 			$('#anim_2').velocity({
 				translateX: '0%',
+				opacity: 1,
 			},{
 				duration: 500,
 			});
@@ -31,6 +34,7 @@ $(document).ready(function(){
 			hecho2 = true;
 			$('#anim_3').velocity({
 				translateX: '0%',
+				opacity: 1,
 			},{
 				duration: 500,
 			});
