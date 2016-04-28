@@ -113,7 +113,7 @@ html{
   width: 80%;
   height: 60px;
   position: fixed;
-  z-index: 5;
+  z-index: 10;
   margin-left: 10%;
   font-family: "GillSans", sans-serif;
 }

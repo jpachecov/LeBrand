@@ -6,8 +6,8 @@
  }
  .pg-1 img{
  	display: block;
-	margin: 10em auto 0px;
-  margin-bottom: 15%;
+	margin: 12em auto 0px;
+  margin-bottom: 21%;
  }
  .pg-2{
   font-family: "GillSans", sans-serif;
@@ -56,11 +56,10 @@
   .pg-2-agroamericana{
   	color: white;
   	background-position: 0% 0%;
-    background-image: url(../img/work/agroamericana/background_000-1.png);
-    margin-top: 13%;
+    margin-top: 0%;
   }
   .pg-2-agroamericana h1{
- 	margin-top: 20%;
+ 	margin-top: 15%;
  }
   .pg-2-agroamericana img{
   	float: right;
@@ -74,12 +73,11 @@
  .pg-2-fighter{
  	padding: 0px !important;
  	color: black;
- 	margin-top: 11%;
+ 	margin-top: 0%;
  	background-position: 0% 0%;
- 	background-image: url(../img/work/fighter_town/background_000-1.png);
  }
  .pg-2-fighter h1{
- 	margin-top: 20%;
+ 	margin-top: 15%;
  }
  .pg-2-fighter p, .pg-2-fighter img{
  	float: left;
@@ -102,12 +100,10 @@
   .pg-2-sun{
   	color: white;
   	padding-bottom: 20%;
-  	background-position: 0% 0%;
-  	background-image: url(../img/work/sun_slice/background_000-1.png);
-    margin-top: 11%;
+  	margin-top: 0%;
   }
   .pg-2-sun h1{
-  	margin-top: 20%;
+  	margin-top: 15%;
   }
   .sun-middle img{
 
@@ -123,12 +119,10 @@
  */
  .pg-2-jltc{
    	color: white;
-   	background-position: 0% 0%;
-   	background-image: url(../img/work/jltc/backgroud_000-1.png);
-    margin-top: 6%;
+   	margin-top: 0%;
  }
  .pg-2-jltc h1{
- 	margin-top: 20%;
+ 	margin-top: 15%;
  }
  .pg-2-jltc .icon{
  	margin-top: -46%;
@@ -153,11 +147,9 @@
   */
   .pg-2-ameri{
   	color: white;
-  	background-position: 0% 0%;
-  	/*background-image: url(../img/work/amerivacs/background_000-1.png);*/
   }
   .pg-2-ameri h1{
-  	margin-top: 20%;
+  	margin-top: 15%;
   }
   .pg-2-ameri .icon{
   	float: right;
@@ -176,12 +168,10 @@
   .pg-2-chapital{
     color: white;
     padding-bottom: 10%;
-    background-position: 0% 0%;
-    background-image: url(../img/work/grupo_Chapital/background_000-1.png);
-    margin-top: 14%;
+    margin-top: 0%;
   }
   .pg-2-chapital h1{
-    margin-top: 20%;
+    margin-top:15%;
   }
 
   .chapital-middle img{
@@ -198,12 +188,10 @@
   .pg-2-tulum{
     color: white;
     padding-bottom: 10%;
-    background-position: 0% 0%;
-    background-image: url(../img/work/tulum/background_000-1.png);
-    margin-top: 5%;
+    margin-top: 0%;
   }
   .pg-2-tulum h1{
-    margin-top: 22%;
+    margin-top: 18%;
   }
 
   .tulum-middle img{
@@ -220,19 +208,17 @@
   .pg-2-ah_Musen{
     color: white;
     padding-bottom: 10%;
-    background-position: 0% 0%;
-    background-image: url(../img/work/ah_Musen/background_000-1.png);
-    margin-top: 2%;
+    margin-top: 0%;
   }
   .pg-2-ah_Musen h1{
-    margin-top: 25%;
+    margin-top: 15%;
   }
 
   .ah_Musen-middle img{
    display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -33%;
+  margin-top: -35%;
   }
 .ah_Musen-middle{
   margin-top: -52%;
@@ -267,13 +253,11 @@
   .pg-2-centennial_Organics{
     color: white;
     padding-bottom: 2%;
-    background-position: 0% 0%;
-    background-image: url(../img/work/centennial_Organics/background_000-1.png);
     text-align: center;
-    margin-top: 10%;
+    margin-top: 0%;
   }
   .pg-2-centennial_Organics h1{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   .centennial_Organics-middle img{
@@ -289,13 +273,11 @@
   .pg-2-agora{
     color: white;
     padding-bottom: 10%;
-    background-position: 0% 0%;
-    background-image: url(../img/work/agora/background_000-1.png);
     text-align: center;
-    margin-top: 14%;
+    margin-top: 0%;
   }
   .pg-2-agora h1{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   .agora-middle img{
@@ -311,12 +293,11 @@
     color: white;
     padding-bottom: 3%;
     background-position: 0% 0%;
-    background-image: url(../img/work/marmoline/background_000-1.png);
     text-align: center;
-    margin-top: 10%;
+    margin-top: 0%;
   }
   .pg-2-marmoline h1{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   .marmoline-middle img{
@@ -331,7 +312,7 @@
    */
 
 .pg-aimalaion{
-  margin-top: 11%;
+  margin-top: -2%;
 }
   .pg-2-aimalaion h1{
     margin-top: 20%;
@@ -351,12 +332,11 @@
     color: white;
     padding-bottom: 10%;
     background-position: 0% 0%;
-    background-image: url(../img/work/cmx/background_000-1.png);
     text-align: center;
-    margin-top: 12%;
+    margin-top: 0%;
   }
   .pg-2-cmx h1{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   .cmx-middle img{
@@ -373,12 +353,11 @@
     color: black;
     padding-bottom: 25%;
     background-position: 0% 0%;
-    background-image: url(../img/work/vintage/background_000-1.png);
     text-align: center;
-    margin-top: 11%;
+    margin-top: 0%;
   }
   .pg-2-vintage h1{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 
   .vintage-middle img{

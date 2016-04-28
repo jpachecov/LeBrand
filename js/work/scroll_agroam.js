@@ -17,12 +17,14 @@ $(document).ready(function(){
 			});
 			$('#anim_1').velocity({
 				translateX: '0%',
+				skewY: '6deg',
 			},{
 				duration: 400,
 				queue: false
 			});			
 			$('#anim_2').velocity({
 				translateX: '0%',
+				skewY: '6deg',
 				opacity: 1,
 			},{
 				duration: 500,

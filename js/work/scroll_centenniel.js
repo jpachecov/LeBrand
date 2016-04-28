@@ -19,6 +19,7 @@ $(document).ready(function(){
 			});
 			$('#anim_1').velocity({
 				translateX: '0px',
+				skewY: '6deg',
 			},{
 				duration: 400,
 				queue: false

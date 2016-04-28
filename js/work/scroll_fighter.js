@@ -18,6 +18,7 @@ $(document).ready(function(){
 			});
 			$('#anim_1').velocity({
 				translateX: '0%',
+				skewY: '6deg',
 			},{
 				duration: 400,
 				queue: false
@@ -25,12 +26,14 @@ $(document).ready(function(){
 			$('#anim_2').velocity({
 				translateX: '0%',
 				opacity: 1,
+				skewY: '6deg',				
 			},{
 				duration: 500,
 			});
 			$('#anim_3').velocity({
 				translateX: '0%',
 				opacity: 1,
+				skewY: '6deg',
 			},{
 				duration: 500,
 			});
