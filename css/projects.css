@@ -189,9 +189,11 @@
     color: white;
     padding-bottom: 10%;
     margin-top: 0%;
+    background-image: url('../img/work/tulum/background_000-1.png');
+    background-position: 0% 0%;
   }
   .pg-2-tulum h1{
-    margin-top: 18%;
+    margin-top: 22%;
   }
 
   .tulum-middle img{
