@@ -100,7 +100,7 @@ var transale = {
 
 		'lets':{
 			'en':'Let\'s start your project.',
-			'es':'Empecemos tu proyecto.',
+			'es':'Iniciemos su proyecto.',
 		},
 		'agora':{
 		'en' : 'Identity + Branding + Web Design for the new plaza boutique located at Tuxtla Gutierrez, Chiapas.\
@@ -157,11 +157,14 @@ var transale = {
 	},
 
 	'amerivacs' : {
-		'en' : 'Identity + Branding + Web Design for a national American vacuum sealers company.\
+		'en' : 'Identity + Branding + Web Design for a national american vacuum sealers company.\
         		<br> <strong>AmeriVacS</strong> is an established national American vacuum sealers company that builds vacuum sealers that exceed industry standards for design integrity, component quality, speed, redundancy, and failsafe mechanisms. These qualities are evident in every sealer they produce: from the very first, to their latest medical vacuum sealer.\
         		<br>\
         		Amerivacs came to <strong>Le Brand</strong> in need of a fresh identity, information structuring, and branding strategies for new target markets. <strong>Le Brand</strong> studied the company in order to introduce new freshness to the company and reinforce the high quality values that Amerivacs has established for 20 years.',
-		'es' : 'Identidad + Branding + Diseño Web para la identidad de la empresa Americana especializada en elaboración de maquinas de sellado al vacio, con gran trayectoria nacional. <br>Amerivacs es una empresa americana con presencia nacional e internacional con más de 20 años de experiencia en el mercado. Dentro de los planes estratégicos de la empresa, Amerivacs requeria actualizar su identidad para acercarse a nuevos clientes potenciales. Le Brand tuvo la ardua tarea de analizar y conceptualizar gráficamente, los atributos y altos estándares de calidad con los que esta empresa americana opera a nivel nacional.<br> Actualmente, los directivos de Amerivacs quedaron totalmente satisfechos con la nueva identidad de la empresa, ya que refleja en lo absoluto, ya prestigiada trayectoria del proyecto.'
+		'es' : 'Identidad + Branding + Diseño Web para la identidad de la empresa americana especializada en elaboración de maquinas de sellado al vacio, con gran trayectoria nacional.\
+		<br>Amerivacs es una empresa americana con presencia nacional e internacional con más de 20 años de experiencia en el mercado. Dentro de los planes estratégicos de la empresa, Amerivacs requeria actualizar su identidad para acercarse a nuevos clientes potenciales.\
+		 Le Brand tuvo la tarea de analizar y conceptualizar gráficamente, los atributos y altos estándares de calidad con los que esta empresa americana opera a nivel nacional.\
+		 <br><br> Actualmente, los directivos de Amerivacs quedaron totalmente satisfechos con la nueva identidad de la empresa, ya que refleja en lo absoluto la prestigiada trayectoria de la compañía.'
 	},
 
 	'centennial' : {
@@ -209,13 +212,17 @@ var transale = {
 		        <strong>Le Brand</strong> responded to the call of duty for this important mission. The victory of the local allies against the commercial monster brands depended on the creation of a very powerful weapon: The Fighter Town company’s branding.\
 		        <br> Through many strategic reunions with the commanders of this mission, extensive marketing research, and some true Californian inspiration such as the Top Gun movie, <strong>Le Brand</strong> lead this amazing contract craft beer project to victory. <strong>Le Brand</strong> delivered the identity and image required for the battlefield.\
 		        <br> \
-		        The illustration and the original typography design created by <strong>Le Brand</strong> were accepted with high praise by the investors and the users. Right now Fighter Town is under construction and will soon be ready to start expanding from California to therest of the United States and the world.',
+		        The illustration and the original typography design created by <strong>Le Brand</strong> were accepted with high praise by the investors and the users. Right now Fighter Town is under construction and will soon be ready to start expanding from California to therest of the United States and the world.\
+		          <br><br>\
+            <img class="sign" src="../img/work/fighter_town/frase_000.png">',
 
-		'es' : 'Identidad + Branding + Diseño Web para la empresa Fighter Town Brewing Co. La cual será en 2016 la primera cervecería/ embotelladora artesanal en San Diego, California.\
+		'es' : 'Identidad + Branding + Diseño Web para la empresa Fighter Town Brewing Co. La cual será en 2016 la primera cervecería/embotelladora artesanal en San Diego, California.\
 		        <br> <br>\
-		        Fighter Town quiere ayudar a cervecerías artesanales de toda la región alcanzar su máximo potencial a través de alianzas estratégicas, grandes producciones a menores precios y salas de degustación. Fighter Town se acercó a Le Brand con el reto de crear una marca e imagen que fuese visualmente imponente para poder competir contra las grandes marcas comerciales de cerveza que acaparan más del 90% del mercado nacional.\
+		        Fighter Town quiere ayudar a cervecerías artesanales de toda la región a alcanzar su máximo potencial a través de alianzas estratégicas, grandes producciones a menores precios y salas de degustación. Fighter Town se acercó a Le Brand con el reto de crear una marca e imagen que fuese visualmente imponente para poder competir contra las grandes marcas comerciales de cerveza que acaparan más del 90% del mercado nacional.\
 		        <br> <br>\
-		        La ilustración, así como el diseño original de la tipografía fue muy bien aceptada por los inversionistas y los usuarios. Actualmente Fighter Town esta en construcción y listo para expandirse abrir sus puertas a fin del año.'
+		        La ilustración, así como el diseño original de la tipografía fue muy bien aceptada por los inversionistas y los usuarios. Actualmente Fighter Town esta en construcción y listo para expandirse abrir sus puertas a fin del año.\
+		                      <br><br>\
+            <img class="sign" src="../img/work/fighter_town/frase_000.png">'
 	},
 
 	'capital' : {
@@ -276,9 +283,9 @@ var transale = {
 		        <br>\
 		        Sunslice’s consumer’s desires were critical in determining the process of creating a brand for the company. While developing branding for Sunslice, <strong>Le Brand</strong> was asked to create very high quality visuals that would meet the high expectations of millennial consumers. Sunslice was looking for branding that would seem friendly and sustainable, and would represent the company with a healthy personality. At the same time, Sunslice wanted the designs to be forceful, sober, and minimalistic. <strong>Le Brand</strong> met these demands with enthusiasm and Sunslice was not disappointed.',
 
-		'es' : 'Identidad + Branding + Diseño Web para la empresa mexicana-americana comercializadora de productos con la mejor calidad. Protagonistas de la industria agrícola en México al ser grandes exportadores y mantener un negocio sustentable.\
+		'es' : 'Identidad + Branding + Diseño Web para la empresa mexicana-americana comercializadora de productos perecederos con la mejor calidad. Protagonistas de la industria agrícola en México al ser grandes exportadores y mantener un negocio sustentable.\
 		        <br> <br>\
-		       Crear el branding de Sunslice fue todo un reto ya que tenía que competir con marcas norteamericanas dentro del mercado nacional de Estados Unidos en tiendas de auto- servicios y Whole Foods market. Debía contar con una personalidad sustentable, amigable con el medio ambiente y saludable mientras que al mismo tiempo debía de representar la vanguardia minimalista, la seriedad y el prestigio de la empresa. La marca de Sunslice fue un éxito ya que tuvo gran aceptación en el mercado norteamericano gracias a las estrategias de comunicación implementadas en las plataformas digitales.'
+		       Crear el branding de Sunslice fue todo un reto ya que tenía que competir con marcas norteamericanas dentro del mercado nacional de Estados Unidos en tiendas de auto-servicios y Whole Foods market. Debía contar con una personalidad sustentable, amigable con el medio ambiente y saludable mientras que al mismo tiempo debía de representar la vanguardia minimalista, la seriedad y el prestigio de la empresa. La marca de Sunslice fue un éxito ya que tuvo gran aceptación en el mercado norteamericano gracias a las estrategias de comunicación implementadas en las plataformas digitales.'
 	},
 
 	'tulum' : {
