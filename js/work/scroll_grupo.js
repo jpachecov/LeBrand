@@ -28,13 +28,13 @@ $(document).ready(function(){
 			},{
 				duration: 500,
 			});
-/*
+
 			$('#anim_3').velocity({
 				translateX: '0%',
 			},{
 				duration: 500,
 			});
-*/
+
 		}
 	});
 });
