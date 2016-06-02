@@ -21,7 +21,7 @@
  	text-align: center;
  }
  .pg-2 p{
- 	width: 50%;
+ 	/*width: 50%;*/
 	padding: 5%;
  }
 
@@ -378,19 +378,21 @@ margin-top: -59%;
 .letstart_button{
   position: absolute;
   display: block;
-  width: 40%;
-  height: 48px;
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   border-radius: 6px;
-  border: solid 1px;
   text-align: center;
   font-size: 25px;
+
 }
 
 .letstart_button span{
   display: block;
   padding: 1%;
+  border-radius: 6px;
+  border: solid 1px;
 }
 
 .letstart_button:hover{
@@ -420,7 +422,7 @@ margin-top: -59%;
 
 .titulo{
   font-family: 'MarionR'; 
-  font-size: 4vw;
+  font-size: 60px;
 }
 .subti{
   font-family: "GillSans",sans-serif;

@@ -228,7 +228,7 @@ html{
 .footer .last{
   font-size: 15px;
   background: black;
-  width: 83%;
+  /*width: 83%;*/
   padding-bottom: 1%;
   margin: auto;
 }
@@ -240,8 +240,8 @@ html{
   font-weight: bold;
 }
 .footer .last div{
-  width: 33.3%;
-  float: left;
+  /*width: 33.3%;*/
+  /*float: left;*/
 }
 .footer .last .info span{
   padding: 0% 3%;
