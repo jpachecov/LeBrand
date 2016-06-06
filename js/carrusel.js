@@ -9,14 +9,17 @@ $.Velocity.hook($('.contenido'), "translateX", "20px");
 
 
 $(document).ready(function(){
-	/*
 	check = setInterval(function(){
 		checkForActive();
 	}, 100);
-*/
+
+
+/*
 	check = setTimeout(function(){
 		checkForActive();
 	}, 100);
+*/
+
 });
 
 /*
