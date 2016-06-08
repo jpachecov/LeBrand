@@ -292,7 +292,7 @@ img{
 }
 
 .uno{
-	position: relative;
+	/*position: relative;*/
 	z-index: 1;	
 	background:transparent;
 	top: 120px;
@@ -337,7 +337,7 @@ img{
 }
 
 .trianguloSuperior{
-    background-image: url(../img/nosotros/triangulo_1.png);
+/*    background-image: url(../img/nosotros/triangulo_1.png);*/
     background-repeat: no-repeat;
 /*   -webkit-background-size: cover;
   -moz-background-size: cover;
