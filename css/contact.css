@@ -41,7 +41,7 @@ body{
     color: white;
     box-sizing: border-box;
     margin: 0px;
-    height: 80px;
+    height: 100%;
     line-height: 80px;
     padding-right: 35px;
     font-family: "Marion", sans-serif;

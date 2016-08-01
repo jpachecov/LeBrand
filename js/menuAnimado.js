@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 animando = false;
 
-	$("#menu").hover(
+	$(".menu1").hover(
 
 
 		function(){
@@ -25,7 +25,7 @@ animando = false;
 			$("#menu-anim").velocity("stop").velocity({
 				translateX: 0,
 			},{
-				duration: 500,
+				duration: 150,
 				complete: function(){
 					animando = false;
 				}
@@ -44,7 +44,7 @@ animando = false;
 			$("#menu-anim").velocity("stop").velocity({
 					translateX: -100 + "%",
 			},{
-				duration: 1500,
+				duration: 200,
 				complete: function(){
 					animando = false;
 				}
@@ -78,7 +78,7 @@ var onTop = true;
 				$("#menu-anim").velocity("stop").velocity({
 					translateX: -100 + "%",
 				},{
-					duration: 750,
+					duration: 200,
 					complete: function(){
 						animando = false;
 					}

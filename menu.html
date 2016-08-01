@@ -1,0 +1,44 @@
+      <div class='menu1 col-md-11 col-sm-11 hidden-xs'>
+
+        <div style='background-color:black; padding:1.5%; z-index:10; height:100%;' class='col-md-1 col-sm-1'>
+          <img src='img/LOGO_000.png' ng-click="toPage('home')"></img>
+        </div>
+
+        <ul id="menu-anim" class='col-md-10 col-sm-10'>
+          <li ng-click="toPage('home')" class='col-md-2 col-sm-2'>
+            <a class="m-ph1">PORTFOLIO</a>
+          </li>
+        <li ng-click="toPage('about')" class='col-md-2 col-sm-2'>
+            <a class="m-ph2">ABOUT US</a>
+          </li>
+        <li ng-click="toPage('work')" class='col-md-2 col-sm-2'>
+            <a class="m-ph3">WORK</a>
+          </li>
+        <li ng-click="toPage('contact')" class='col-md-2 col-sm-2'>
+            <a class="m-ph4">CONTACT US</a>
+          </li>
+        </ul>
+        
+      </div>
+   
+
+      <div id='menu2' class=' cursor col-sm-12 col-xs-12' style='display:none' ng-click='animateMenu()'>
+          <img style='width:90px' class='col-cen' src='img/LOGO_000.png'></img>
+      </div>
+    <div class='oculto col-xs-12 col-sm-12' style='padding:0%;display:none'>
+          <ul id="menu-anim2" class='menu2'>
+          <li ng-click="toPage('home')">
+            <a class="m-ph1">PORTFOLIO</a>
+          </li>
+          <li ng-click="toPage('about')">
+            <a class="m-ph2">ABOUT US</a>
+          </li>
+          <li ng-click="toPage('work')">
+            <a class="m-ph3">WORK</a>
+          </li>
+          <li ng-click="toPage('contact')">
+            <a class="m-ph4">CONTACT US</a>
+          </li>
+        </ul>
+      
+    </div>

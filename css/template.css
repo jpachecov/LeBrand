@@ -41,6 +41,10 @@ body{
   overflow-x: hidden;
 }
 
+body * {
+    -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
 html{
   background-color: #dcdcdc;
 }
@@ -55,79 +59,92 @@ html{
   font-family: "GillSans", sans-serif;
   font-weight: bold;
   z-index: 1000;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 #logo{
 	display: inline-block;
-    width: 75px;
+    width: 100px;
     height: 100%;
-    background-image: url("../img/LOGO_000.png");
-    background-size: 50px;
-    background-color: black;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
-  z-index: 100;
+    z-index: 100;
 }
-.menu{
+.col-cen{
+  display: block;
+  float: none;
+  margin: 0px auto;
+}
+
+#logo img{
+
+}
+.pressed{
+  background-color:#c51010;
+}
+
+.menu1{
 
     list-style: none;
-    display: inline-block;
-    width: calc(100% - 75px);
-    height: 100%;
     padding: 0%;
     margin: 0%;
+    height: 92px;
     vertical-align: top;
-    position: relative;
+    position: fixed;
     z-index: 98;
+    background-color: transparent;
+    overflow: hidden;
 }
-#menu li a {
+.menu1 img{
+  width: 100%;
+  padding: 1%;
+}
+#menu-anim{
+  height: 100%;
+  padding: 0%;
+}
+.menu1 li a {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
 	position: relative;
 	top: 40%;
+  font-weight: bold;
 
 }
-#menu ul li {
+.menu1 ul li {
 	display: inline-block;
     vertical-align: top;
     height: 100%;
     text-align: center;
     position: relative;
-    padding-left: 4.5%;
-    padding-right: 4.5%;
+
     background-color: white;
     cursor: pointer;
 }
-#menu li:hover  {
+.menu1 li:hover  {
 
 	background-color : black;
 }
-#menu li:hover  a {
+.menu1 li:hover  a {
 
 	color:white;
 }
 
 #menu2{
-  width: 80%;
-  height: 60px;
+  width: 100%;
+  height: 112px;
+  padding: 4%;
   position: fixed;
+  background-color: black;
   z-index: 10;
-  margin-left: 10%;
   font-family: "GillSans", sans-serif;
 }
-
-#menu2 > #logo{
-  z-index: 21;
-  width: 100.2%;
+.cursor{
+  cursor: pointer;
 }
 
 .menu2{
-
+width: 100%;
     list-style: none;
     display: inline-block;
-    width: 100%;
     height: 100%;
     padding: 0%;
     margin: 0%;
@@ -136,7 +153,7 @@ html{
     position: relative;
 }
 
-#menu2 li a {
+.oculto li a {
   display: inline-block;
   text-decoration: none;
   color: black;
@@ -145,7 +162,7 @@ html{
   font-size: 4vw;
 
 }
-#menu2 ul li {
+.oculto ul li {
   display: inline-block;
   vertical-align: top;
   width: 100%;
@@ -153,12 +170,17 @@ html{
   text-align: center;
   position: relative;
   background-color: white;
+  padding: 3%;
 }
-#menu2 li:hover  {
+.oculto li:hover  {
 
   background-color : black;
 }
-#menu2 li:hover  a {
+.oculto{
+  position: relative;
+  z-index: 4;
+}
+.oculto li:hover  a {
 
   color:white;
 }
@@ -170,7 +192,7 @@ html{
  .top-black{
   background: black;
   width: 100%;
-  height: 80px;
+  height: 92px;
   margin: 0px;
 }
 
@@ -180,7 +202,7 @@ html{
 .top-white{
   background: white;
   width: 100%;
-  height: 80px;
+  height: 92px;
   margin: 0px;
 }
 

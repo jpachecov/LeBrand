@@ -3,9 +3,9 @@ var showed = false;
 function ocultaMenu(callback){
 
 	$("#menu-anim2").velocity("stop").velocity({
-		translateY: -410 + "%",
+		translateY: -200 + "px",
 	},{
-		duration: 300,
+		duration: 250,
 		complete: callback()
 	});	
 }
@@ -13,16 +13,16 @@ function ocultaMenu(callback){
 function muestraMenu(callback){
 	
 	$("#menu-anim2").velocity("stop").velocity({
-		translateY: -5,
+		translateY: 110 + 'px',
 	},{
-		duration: 300,
+		duration: 150,
 		complete: callback()
 
 	});
 }
 $(document).ready(function() {
 
-	$.Velocity.hook($("#menu-anim2"), "translateY", "-410%");
+	$.Velocity.hook($("#menu-anim2"), "translateY", "-200px");
 	
 	$("#menu2").click(function(){
 		if(showed){
